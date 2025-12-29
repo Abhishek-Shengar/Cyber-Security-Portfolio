@@ -48,8 +48,7 @@ picoCTF{***************}
 
 ---
 ## Summary
-This was my **Day 01 CTF challenge**, focused on basic web exploitation techniques.  
-By inspecting the HTML source code, I discovered sensitive information exposed inside an HTML comment.
+This was my **Day 01 CTF challenge**, focused on basic web exploitation techniques. By inspecting the HTML source code, I discovered sensitive information exposed inside an HTML comment.
 
 This challenge helped me understand how client-side information disclosure occurs and why developers must avoid leaving confidential data in HTML source code.
 
