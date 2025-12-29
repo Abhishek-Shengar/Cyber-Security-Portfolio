@@ -41,7 +41,20 @@ To identify hidden information in a web page using basic web inspection techniqu
 4. Analyzed the HTML code for hidden comments.
 5. Found the flag embedded inside an HTML comment.
 
-----
+---
 
 ## Flag
 picoCTF{***************}
+
+---
+## Summary
+This was my **Day 01 CTF challenge**, focused on basic web exploitation techniques.  
+By inspecting the HTML source code, I discovered sensitive information exposed inside an HTML comment.
+
+This challenge helped me understand how client-side information disclosure occurs and why developers must avoid leaving confidential data in HTML source code.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
+
+
