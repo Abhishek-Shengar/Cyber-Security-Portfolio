@@ -18,17 +18,15 @@ Go to this website and see what you can discover.
 
 URL:  http://saturn.picoctf.net:51510/
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+---
 ## Objective
 To identify hidden information in a web page using basic web inspection techniques.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+---
 ## Commands / Techniques Learned
 - Ctrl + U (View Page Source)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Methodology
 1. Opened the challenge URL in a web browser.
@@ -43,8 +41,7 @@ To identify hidden information in a web page using basic web inspection techniqu
 6. Analyzed the HTML code for hidden comments.
 7. Found the flag embedded inside an HTML comment.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+----
 
 ## Flag
 picoCTF{***************}
