@@ -74,7 +74,7 @@ To analyze the login functionality and identify insecure authorization logic tha
 
 ## Flag
 
-
+picoCTF{***************}
 ---
 
 ## Summary
