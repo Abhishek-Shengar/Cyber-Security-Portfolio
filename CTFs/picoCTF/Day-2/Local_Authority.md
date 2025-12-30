@@ -74,8 +74,8 @@ To analyze the login functionality and identify insecure authorization logic tha
 
 ## Flag
 picoCTF{***************}
----
 
+---
 ## Summary
 This was my **Day 02 CTF challenge**, focused on understanding broken authentication and insecure authorization mechanisms.
 
