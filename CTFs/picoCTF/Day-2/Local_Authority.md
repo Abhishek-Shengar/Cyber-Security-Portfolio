@@ -10,6 +10,8 @@ Web Exploitation
 Easy
 
 ## Description / Problem Statement
+**Author:** LT ‘syreal’ Jones
+
 Can you get the flag?
 Go to this website and see what you can discover.
 
