@@ -47,6 +47,13 @@ To analyze minified HTML source code and identify hidden information embedded wi
 
 <img width="1919" height="972" alt="Screenshot 2026-01-01 204954" src="https://github.com/user-attachments/assets/c9b0af4c-623e-47e9-aa9f-8a1f9ca856d9" />
 
+---
+
+## Flag
+picoCTF{***************}
+
+---
+
 ## Summary
 
 This was my Day 04 CTF challenge, focused on understanding minified web content and careful source code analysis.
