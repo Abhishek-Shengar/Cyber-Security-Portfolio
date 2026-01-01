@@ -59,3 +59,7 @@ picoCTF{***************}
 This was my Day 04 CTF challenge, focused on understanding minified web content and careful source code analysis.
 
 By inspecting a single-line minified HTML file and paying close attention to repeated patterns, I was able to locate the correct flag. This challenge demonstrated that even heavily compressed or minified code can still expose sensitive information if not handled securely.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
