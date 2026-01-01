@@ -15,8 +15,7 @@ As a bonus, my pages load faster!
 
 Browse here, and find the flag!
 
-**URL:**  
-http://titan.picoctf.net:58451/
+URL: http://titan.picoctf.net:58451/
 
 ---
 
