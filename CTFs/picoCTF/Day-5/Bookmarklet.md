@@ -58,6 +58,7 @@ To analyze a JavaScript bookmarklet and decrypt an encrypted flag using client-s
 ---
 
 ## Flag
+picoCTF{***************}
 
 ---
 
