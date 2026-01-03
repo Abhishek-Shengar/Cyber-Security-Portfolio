@@ -40,3 +40,14 @@ Keep Navigating
 
 <img width="1918" height="974" alt="Screenshot 2026-01-03 201205" src="https://github.com/user-attachments/assets/6f6ae94d-130b-4c7f-bc20-8970b3d02a84" />
 
+3. Used **Ctrl + U** to inspect the source code of the home page, but did not find any relevant information related to the flag.
+4. Navigated to the **About** page using the website navigation.
+5. The About page displayed a hint encouraging inspection of the page.
+
+<img width="1918" height="971" alt="Screenshot 2026-01-03 201226" src="https://github.com/user-attachments/assets/5800ced3-47db-4e68-90ab-4386f54cd9e2" />
+
+6. Used **Ctrl + U** on the About page to inspect the source code.
+7. Found the following encoded string in the page source:
+
+<img width="1915" height="971" alt="Screenshot 2026-01-03 201133" src="https://github.com/user-attachments/assets/3285df16-d9ff-4b18-b87f-afd61a3c67d4" />
+
