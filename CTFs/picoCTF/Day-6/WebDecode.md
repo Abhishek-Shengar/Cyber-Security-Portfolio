@@ -47,7 +47,8 @@ Keep Navigating
 <img width="1918" height="971" alt="Screenshot 2026-01-03 201226" src="https://github.com/user-attachments/assets/5800ced3-47db-4e68-90ab-4386f54cd9e2" />
 
 6. Used **Ctrl + U** on the About page to inspect the source code.
-7. Found the following encoded string in the page source:
+7. Found the following encoded string in the page source: cGljb0NURnt3ZWJ***************
 
-<img width="1915" height="971" alt="Screenshot 2026-01-03 201133" src="https://github.com/user-attachments/assets/3285df16-d9ff-4b18-b87f-afd61a3c67d4" />
+<img width="1915" height="971" alt="Screenshot 2026-01-03 201133" src="https://github.com/user-attachments/assets/2824791c-ef42-4ab6-9535-b4224084da02" />
+
 
