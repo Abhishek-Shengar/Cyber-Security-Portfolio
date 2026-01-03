@@ -61,4 +61,18 @@ Keep Navigating
 ---
 
 ## Flag
+picoCTF{***************}
+
+
+---
+
+## Summary
+This was my **Day 06 CTF challenge**, focused on using web inspection techniques and decoding encoded data found in page source code.
+
+By navigating through different pages, inspecting the HTML source, and decoding a Base64-encoded string using CyberChef, I was able to retrieve the flag. This challenge reinforced the importance of inspecting all accessible web pages and understanding common encoding techniques used to hide sensitive information.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
+
 
