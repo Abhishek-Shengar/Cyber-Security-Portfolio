@@ -51,4 +51,14 @@ Keep Navigating
 
 <img width="1915" height="971" alt="Screenshot 2026-01-03 201133" src="https://github.com/user-attachments/assets/2824791c-ef42-4ab6-9535-b4224084da02" />
 
+8. Copied the encoded string and opened **CyberChef** in a new browser tab.
+9. Pasted the encoded value into CyberChef and applied the **From Base64** operation.
+
+<img width="1918" height="968" alt="Screenshot 2026-01-03 201047" src="https://github.com/user-attachments/assets/b02eab23-9389-4612-8ad0-f57330c87438" />
+
+10. The decoded output revealed the flag.
+
+---
+
+## Flag
 
