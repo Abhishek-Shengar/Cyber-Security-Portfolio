@@ -25,7 +25,7 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ## Skills & Techniques Learned
 
-### 🔍 Web Inspection & Reconnaissance
+###  Web Inspection & Reconnaissance
 - Viewing page source using **Ctrl + U**
 - Using browser **Inspect / Developer Tools**
 - Identifying hidden information in HTML comments
@@ -33,7 +33,7 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ---
 
-### 🔐 Authentication & Authorization Weaknesses
+###  Authentication & Authorization Weaknesses
 - Analyzing login workflows
 - Observing error handling and failed login behavior
 - Identifying insecure access to protected endpoints
@@ -41,21 +41,21 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ---
 
-### 📁 Client-Side File Analysis
+###  Client-Side File Analysis
 - Inspecting **CSS (`.css`)** and **JavaScript (`.js`)** files
 - Finding sensitive data exposed in included resources
 - Understanding risks of placing secrets in client-side files
 
 ---
 
-### 🧩 Code Reading & Analysis
+###  Code Reading & Analysis
 - Analyzing **minified HTML**
 - Identifying meaningful patterns in compressed code
 - Carefully reviewing long single-line source code
 
 ---
 
-### 🔑 Encoding & Decryption
+###  Encoding & Decryption
 - Recognizing **Base64-encoded** data
 - Decoding encoded strings using **CyberChef**
 - Understanding simple encryption/decryption logic in JavaScript
@@ -117,6 +117,3 @@ The challenges reinforced that **small implementation mistakes** can lead to ser
 - Improve automation and efficiency in analysis
 
 ---
-
-📌 *This progress report reflects hands-on cybersecurity learning through ethical CTF challenges conducted in controlled environments.*
-
