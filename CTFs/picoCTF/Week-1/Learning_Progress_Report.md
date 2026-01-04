@@ -4,7 +4,7 @@
 ---
 
 ## Overview
-This document summarizes my **Week 01 progress** while practicing **web exploitation CTF challenges** on the picoCTF platform. The focus of this week  was  to build a **strong foundation in client-side web security**,  source code inspection,  authentication flaws,  and basic data decoding techniques.
+This document summarizes my **Week 01 progress** while practicing **web exploitation CTF challenges** on the picoCTF platform. The focus of this week was to build a **strong foundation in client-side web security**, source code inspection, authentication flaws, and basic data decoding techniques.
 
 All challenges were solved in **legal, controlled environments** for educational purposes.
 
