@@ -71,6 +71,8 @@ To analyze HTTP cookies used by a web application and decode hidden information 
 13. Pasted the cookie value into CyberChef and applied the **From Base64** operation.
 14. The decoded output revealed the flag.
 
+<img width="1919" height="969" alt="flag" src="https://github.com/user-attachments/assets/672f9474-e3d2-4288-8f59-0cb5894a5ac2" />
+
 ---
 
 ## Flag
