@@ -76,7 +76,7 @@ To analyze HTTP cookies used by a web application and decode hidden information 
 ---
 
 ## Flag
-
+picoCTF{***************}
 
 ---
 
