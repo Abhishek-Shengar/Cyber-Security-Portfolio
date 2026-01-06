@@ -61,26 +61,20 @@ To perform web reconnaissance by inspecting multiple client-side and server-side
 10. Researched Apache server files and identified that **`.htaccess`** is used to control access on Apache web servers.
 11. Modified the URL to: /.htaccess
 12. Accessed the file and obtained the **fourth part of the flag**.
+13. Also found another clue in the source: I love making websites on my Mac, I can store a lot of information there.
 
 <img width="1919" height="970" alt="Flag 4" src="https://github.com/user-attachments/assets/d5a39c80-161e-431c-b974-b04d2fc79328" />
 
-13. Found another clue in the source: I love making websites on my Mac, I can store a lot of information there.
-
----
-
 14. Researched common hidden files used by macOS.
 15. Identified **`.DS_Store`** as a macOS system file that can sometimes be exposed on web servers.
-16. Modified the URL to:
- ```
- /.DS_Store
- ```
+16. Modified the URL to: /.DS_Store
 17. Accessed the file and retrieved the **final part of the flag**.
 
----
+<img width="1914" height="968" alt="Flag 5" src="https://github.com/user-attachments/assets/f83644e1-be3c-4aab-b346-2062104c9424" />
 
 18. Combined all the collected parts to form the complete flag.
 
 ---
 
-## Flag (Masked)
+## Flag
 
