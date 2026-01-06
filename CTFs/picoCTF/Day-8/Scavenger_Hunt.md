@@ -77,4 +77,15 @@ To perform web reconnaissance by inspecting multiple client-side and server-side
 ---
 
 ## Flag
+picoCTF{***************}
 
+---
+
+## Summary
+This was my **Day 08 CTF challenge**, focused on web enumeration and reconnaissance techniques.
+
+By inspecting HTML, CSS, and server-related files such as `robots.txt`, `.htaccess`, and `.DS_Store`, I was able to uncover different parts of the flag scattered across the website. This challenge demonstrated how misconfigured servers and exposed files can leak sensitive information and highlighted the importance of securing both client-side and server-side resources.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
