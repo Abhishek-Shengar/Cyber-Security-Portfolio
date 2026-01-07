@@ -67,4 +67,4 @@ To inspect client-side web resources and identify sensitive information distribu
 ---
 
 ## Flag (Masked)
-
+picoCTF{***************}
