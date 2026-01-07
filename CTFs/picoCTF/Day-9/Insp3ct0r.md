@@ -14,8 +14,7 @@ Easy
 
 Kishor Balan tipped us off that the following code may need inspection.
 
-**URL:**  
-http://fickle-tempest.picoctf.net:63965/
+URL: http://fickle-tempest.picoctf.net:63965/
 
 ---
 
