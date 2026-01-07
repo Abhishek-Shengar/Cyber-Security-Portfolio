@@ -68,3 +68,14 @@ To inspect client-side web resources and identify sensitive information distribu
 
 ## Flag (Masked)
 picoCTF{***************}
+
+---
+
+## Summary
+This was my **Day 09 CTF challenge**, focused on client-side inspection and information disclosure through web resources.
+
+By inspecting the HTML source code and reviewing linked CSS and JavaScript files, I was able to collect different parts of the flag and combine them. This challenge demonstrated how exposing sensitive data in client-side resources can lead to information leakage and highlighted the importance of secure front-end development practices.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
