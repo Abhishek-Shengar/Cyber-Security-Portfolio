@@ -74,4 +74,16 @@ To analyze authentication logic and identify insecure client-side authorization 
 ---
 
 ## Flag
+picoCTF{***************}
+
+---
+
+## Summary
+This was my **Day 10 CTF challenge**, focused on understanding broken access control and insecure client-side trust.
+
+By inspecting application storage and modifying a client-side authorization value, I was able to escalate privileges and access restricted content. This challenge demonstrated how relying on client-side checks for authorization can lead to serious security vulnerabilities.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
 
