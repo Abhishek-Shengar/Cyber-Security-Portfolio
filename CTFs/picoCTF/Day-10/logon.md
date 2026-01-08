@@ -53,5 +53,8 @@ To analyze authentication logic and identify insecure client-side authorization 
 - **Username:** Bob  
 - **Password:** Random value  
 
-7. This time, login was successful and the page displayed:
+<img width="1915" height="970" alt="Screenshot 2026-01-08 183259" src="https://github.com/user-attachments/assets/4f0708f0-6425-4a9e-8eae-0aa86019bd47" />
+
+7. This time, login was successful and the page displayed: Success: You logged in! Not sure you'll be able to see the flag though. No flag for you.
+
 
