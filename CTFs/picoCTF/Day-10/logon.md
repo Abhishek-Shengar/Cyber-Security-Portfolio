@@ -52,27 +52,24 @@ To analyze authentication logic and identify insecure client-side authorization 
 6. Attempted to log in again using:
 - **Username:** Bob  
 - **Password:** Random value  
-8. Also opened **Developer Tools** by right-clicking and selecting **Inspect**.
-9. Navigated to the **Application** tab.
+7. Also opened **Developer Tools** by right-clicking and selecting **Inspect**.
+8. Navigated to the **Application** tab.
 
 <img width="1915" height="970" alt="Screenshot 2026-01-08 183259" src="https://github.com/user-attachments/assets/4f0708f0-6425-4a9e-8eae-0aa86019bd47" />
 
-7. This time, login was successful and the page displayed: Success: You logged in! Not sure you'll be able to see the flag though. No flag for you.
+9. This time, login was successful and the page displayed: Success: You logged in! Not sure you'll be able to see the flag though. No flag for you.
+10. Under the storage section, found a table containing an entry: admin = false
 
 <img width="1918" height="963" alt="Screenshot 2026-01-08 183405" src="https://github.com/user-attachments/assets/0b9d4c1c-404f-4137-b29e-3022dcebe7bc" />
 
-10. Under the storage section, found a table containing an entry:
- ```
- admin = false
- ```
+11. Modified the value of `admin` from: false → true
 
-11. Modified the value of `admin` from:
- ```
- false → true
- ```
+<img width="1919" height="969" alt="Screenshot 2026-01-08 183433" src="https://github.com/user-attachments/assets/dad234b7-ff68-474b-855e-c8ff6cd06101" />
 
 12. Refreshed the page.
 13. After refreshing, the application displayed the flag.
+
+<img width="1919" height="967" alt="Screenshot 2026-01-08 183458" src="https://github.com/user-attachments/assets/647a88f8-d08e-4426-9aea-51e284333352" />
 
 ---
 
