@@ -15,8 +15,7 @@ Easy
 The factory is hiding things from all of its users.  
 Can you login as Joe and find what they've been looking at?
 
-**URL:**  
-http://fickle-tempest.picoctf.net:59691/
+URL: http://fickle-tempest.picoctf.net:59691/
 
 ---
 
