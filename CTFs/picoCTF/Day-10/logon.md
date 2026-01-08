@@ -50,10 +50,10 @@ To analyze authentication logic and identify insecure client-side authorization 
 
 
 6. Attempted to log in again using:
-- **Username:** Bob  
+- **Username:** Random name  
 - **Password:** Random value  
 7. Also opened **Developer Tools** by right-clicking and selecting **Inspect**.
-8. Navigated to the **Application** tab.
+8. Navigated to the **Application** tab and then clicked on Cookies.
 
 <img width="1915" height="970" alt="Screenshot 2026-01-08 183259" src="https://github.com/user-attachments/assets/4f0708f0-6425-4a9e-8eae-0aa86019bd47" />
 
