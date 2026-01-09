@@ -34,23 +34,22 @@ To analyze how a web application uses cookies to determine application behavior 
 ## Methodology
 
 1. Opened the challenge URL in a web browser.
+
+<img width="1919" height="967" alt="1" src="https://github.com/user-attachments/assets/e944228b-0044-4f2e-9f67-847edb9a3058" />
+
 2. Opened **Developer Tools** and navigated to the **Application** tab.
 3. Selected **Cookies** under the Storage section to inspect client-side data used by the application.
-
----
-
 4. Identified a cookie with:
    - **Name:** `name`
    - **Value:** `-1`
 
+<img width="1919" height="970" alt="2" src="https://github.com/user-attachments/assets/e8287950-a1bf-43bf-a537-ed4a0ac13cbf" />
+
 5. Based on the numeric value, inferred that the application might be using the cookie as an **index or selector** to control displayed content.
-
----
-
 6. Modified the cookie value to `0` and refreshed the page.
 7. Observed that the displayed message changed, confirming that the cookie value directly controlled application output.
 
----
+<img width="1919" height="971" alt="3" src="https://github.com/user-attachments/assets/3b0aec77-3a29-4a0e-ba7b-23d697e00931" />
 
 8. Incremented the cookie value sequentially to explore accessible application states.
 9. At each step, refreshed the page to verify the effect of the modified value.
