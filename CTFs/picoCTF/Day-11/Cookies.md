@@ -66,5 +66,16 @@ To analyze how a web application uses cookies to determine application behavior 
 ---
 
 ## Flag
+picoCTF{***************}
 
+---
+
+## Summary
+This was my **Day 11 CTF challenge**, focused on understanding how web applications use cookies to control application logic.
+
+By modifying a numeric cookie value, I was able to iterate through different application states. The application relied on client-side cookie values as an index to determine which content to display. At a specific index value, the application exposed the flag. This challenge demonstrated the risks of trusting client-side data for access control and content delivery.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
 
