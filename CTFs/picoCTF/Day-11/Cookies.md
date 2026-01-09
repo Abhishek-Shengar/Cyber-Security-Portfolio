@@ -47,19 +47,24 @@ To analyze how a web application uses cookies to determine application behavior 
 
 5. Based on the numeric value, inferred that the application might be using the cookie as an **index or selector** to control displayed content.
 6. Modified the cookie value to `0` and refreshed the page.
-7. Observed that the displayed message changed, confirming that the cookie value directly controlled application output.
+7. The webpage displayed: I love snickerdoodle cookies!
 
 <img width="1919" height="971" alt="3" src="https://github.com/user-attachments/assets/3b0aec77-3a29-4a0e-ba7b-23d697e00931" />
 
-8. Incremented the cookie value sequentially to explore accessible application states.
-9. At each step, refreshed the page to verify the effect of the modified value.
-10. Continued this controlled enumeration until the application returned protected content.
+8. Changed the cookie value to `1` and refreshed the page.
+9. The webpage displayed: I love chocolate chip cookies!. Observed that the displayed message changed, confirming that the cookie value directly controlled application output.
+
+<img width="1919" height="968" alt="4" src="https://github.com/user-attachments/assets/232f9683-3567-48d7-9e45-53a8d5a066c2" />
+
+10. Incremented the cookie value sequentially to explore accessible application states.
+11. At each step, refreshed the page to verify the effect of the modified value.
+12. Continued this controlled enumeration until the application returned protected content.
+13. The correct value caused the application to disclose the flag.
+
+<img width="1919" height="965" alt="Flag" src="https://github.com/user-attachments/assets/a2340365-aaae-4764-9cb3-3609cb41b614" />
 
 ---
 
-11. The correct value caused the application to disclose the flag.
+## Flag
 
----
-
-## Flag (Masked)
 
