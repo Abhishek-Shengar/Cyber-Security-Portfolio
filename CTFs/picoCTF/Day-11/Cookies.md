@@ -14,8 +14,7 @@ Easy
 
 Who doesn't love cookies? Try to figure out the best one.
 
-**URL:**  
-http://wily-courier.picoctf.net:49696/
+URL: http://wily-courier.picoctf.net:49696/
 
 ---
 
