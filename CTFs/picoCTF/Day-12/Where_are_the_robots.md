@@ -34,5 +34,6 @@ To identify hidden resources by analyzing the `robots.txt` file and accessing di
 ## Methodology
 
 1. Opened the challenge URL in a web browser.
-2. The homepage displayed a message:
+2. The homepage displayed a message: Welcome
+Where are the robots?
 
