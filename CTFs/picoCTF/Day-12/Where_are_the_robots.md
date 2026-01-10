@@ -47,7 +47,7 @@ Where are the robots?
 <img width="1915" height="964" alt="Screenshot 2026-01-10 231729" src="https://github.com/user-attachments/assets/c601bd3e-27d4-4772-9849-888bab0b7c19" />
 
 7. Copied the disallowed file name.
-8. Modified the URL by replacing: /robots.txt with /<disallowed-file-name>
+8. Modified the URL by replacing: /robots.txt with /disallowed-file-name
 9. Accessed the disallowed path directly through the browser.
 10. The page revealed the flag.
 
