@@ -14,8 +14,7 @@ Easy
 
 Can you find the robots?
 
-**URL:**  
-http://fickle-tempest.picoctf.net:53551/
+URL: http://fickle-tempest.picoctf.net:53551/
 
 ---
 
