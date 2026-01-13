@@ -7,7 +7,7 @@ Forbidden Paths
 Web Exploitation
 
 ## Difficulty
-Easy
+Medium
 
 ## Description / Problem Statement
 **Author:** LT ‘syreal’ Jones  
