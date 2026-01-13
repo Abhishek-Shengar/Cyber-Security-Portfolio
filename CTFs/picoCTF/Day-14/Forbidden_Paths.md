@@ -40,7 +40,20 @@ To bypass file path restrictions and read a sensitive file using directory trave
 1. Opened the challenge URL in a web browser.
 2. The webpage displayed an input field that allowed users to read files by specifying a file path.
 
+<img width="1715" height="786" alt="Screenshot 2026-01-13 183554" src="https://github.com/user-attachments/assets/727db9fb-b1c1-47a3-9502-8d80a5d26e13" />
+
+3. Attempted to read files using an **absolute path**, such as: /usr/share/nginx/html/flag.txt
+
+<img width="1918" height="964" alt="Screenshot 2026-01-13 190256" src="https://github.com/user-attachments/assets/03c26010-a26e-479c-aed1-1e1b3cc4cc7a" />
+
+4. The application returned a **Not Authorized** message, indicating that absolute paths were being filtered.
+
+<img width="1716" height="788" alt="Screenshot 2026-01-13 183533" src="https://github.com/user-attachments/assets/e19cb913-6eb8-4fb5-81f0-32a77f227491" />
+
+5. Inspected the page source using **Ctrl + U**, but did not find any useful information related to the file validation logic.
+6. Based on the challenge description and Linux file system behavior, inferred that **relative paths** might not be filtered.
+
 ---
 
-3. Attempted to read files using an **absolute path**, such as:
+7. Used a **directory traversal payload** to move up the directory hierarchy:
 
