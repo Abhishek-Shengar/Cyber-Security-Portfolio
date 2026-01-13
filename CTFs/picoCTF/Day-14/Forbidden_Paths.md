@@ -52,8 +52,17 @@ To bypass file path restrictions and read a sensitive file using directory trave
 
 5. Inspected the page source using **Ctrl + U**, but did not find any useful information related to the file validation logic.
 6. Based on the challenge description and Linux file system behavior, inferred that **relative paths** might not be filtered.
+7. Used a **directory traversal payload** to move up the directory hierarchy: ../../../../../flag.txt
+
+<img width="1716" height="786" alt="Screenshot 2026-01-13 183325" src="https://github.com/user-attachments/assets/76857733-a91b-4850-a17a-ff233d7281a8" />
+
+8. This payload works by repeatedly moving to the parent directory (`..`) until reaching the root directory, and then accessing the target file (`flag.txt`).
+9. Submitted the traversal payload in the input field.
+10. The application successfully read and displayed the contents of `flag.txt`, revealing the flag.
+
+<img width="1714" height="788" alt="Screenshot 2026-01-13 183248" src="https://github.com/user-attachments/assets/6a2a9908-dc9f-4036-80c3-f2c09973eca4" />
 
 ---
 
-7. Used a **directory traversal payload** to move up the directory hierarchy:
+## Flag
 
