@@ -65,4 +65,15 @@ To bypass file path restrictions and read a sensitive file using directory trave
 ---
 
 ## Flag
+picoCTF{***************}
 
+---
+
+## Summary
+This challenge focused on exploiting a **Directory Traversal vulnerability**.
+
+Although the application blocked absolute file paths, it failed to properly sanitize relative paths. By using directory traversal sequences (`../`), I was able to bypass the filter and access a sensitive file located outside the intended directory. This highlights the importance of strict server-side path validation and proper file access controls.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
