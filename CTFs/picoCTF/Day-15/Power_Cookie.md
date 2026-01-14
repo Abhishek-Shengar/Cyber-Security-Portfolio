@@ -44,4 +44,34 @@ To analyze how cookies are used for authorization and manipulate cookie values t
 
 <img width="1917" height="967" alt="Screenshot 2026-01-14 223855" src="https://github.com/user-attachments/assets/acb646a8-1f4a-40d1-acd9-0c7f6f17ea89" />
 
+5. Based on the challenge name **Power Cookie**, inferred that access control might be handled using browser cookies.
+6. Opened **Developer Tools** by right-clicking on the page and selecting **Inspect**.
+7. Navigated to the **Application** tab.
+8. Selected **Cookies** under the Storage section.
+
+<img width="1916" height="973" alt="Screenshot 2026-01-14 223736" src="https://github.com/user-attachments/assets/3a46e332-db33-4182-97e8-617d0813fac2" />
+
+9. Observed a cookie with:
+- **Name:** `isAdmin`
+- **Value:** `0`
+10. Interpreted the value:
+ - `0` → false (guest user)
+ - `1` → true (admin user)
+11. Modified the cookie value from:
+ ```
+ isAdmin = 0
+ ```
+ to:
+ ```
+ isAdmin = 1
+ ```
+
+12. Refreshed the page.
+13. After refreshing, the application displayed the flag.
+
+<img width="1917" height="969" alt="Screenshot 2026-01-14 223759" src="https://github.com/user-attachments/assets/2baa1d3a-c6f3-4cc7-9f84-54643be7e31d" />
+
+---
+
+## Flag
 
