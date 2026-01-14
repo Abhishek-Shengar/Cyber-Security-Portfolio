@@ -40,7 +40,7 @@ To analyze how cookies are used for authorization and manipulate cookie values t
 <img width="1915" height="968" alt="Screenshot 2026-01-14 223819" src="https://github.com/user-attachments/assets/39e53932-845b-47fd-a3a2-a1e46ac885a8" />
 
 3. Clicked on **Continue as Guest**.
-4. The application redirected to another page displaying the message:
+4. The application redirected to another page displaying the message: We apologize, but we have no guest services at the moment.
 
 <img width="1917" height="967" alt="Screenshot 2026-01-14 223855" src="https://github.com/user-attachments/assets/acb646a8-1f4a-40d1-acd9-0c7f6f17ea89" />
 
