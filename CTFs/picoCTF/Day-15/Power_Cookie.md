@@ -57,15 +57,7 @@ To analyze how cookies are used for authorization and manipulate cookie values t
 10. Interpreted the value:
  - `0` → false (guest user)
  - `1` → true (admin user)
-11. Modified the cookie value from:
- ```
- isAdmin = 0
- ```
- to:
- ```
- isAdmin = 1
- ```
-
+11. Modified the cookie value from: isAdmin = 0 to isAdmin = 1
 12. Refreshed the page.
 13. After refreshing, the application displayed the flag.
 
@@ -74,4 +66,15 @@ To analyze how cookies are used for authorization and manipulate cookie values t
 ---
 
 ## Flag
+picoCTF{***************}
 
+---
+
+## Summary
+This challenge focused on exploiting a **cookie-based authorization flaw**.
+
+By identifying and modifying a client-side cookie that controlled administrative access, I was able to escalate privileges and access restricted content. This demonstrates why authorization decisions must never rely on client-controlled data and should always be enforced server-side.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
