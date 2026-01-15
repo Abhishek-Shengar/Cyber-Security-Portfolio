@@ -48,7 +48,7 @@ To efficiently search through multiple client-side source files and locate sensi
 5. Opened **Developer Tools** by right-clicking on the page and selecting **Inspect**.
 6. Navigated to the **Sources** tab in Developer Tools.
 
----
+<img width="1917" height="969" alt="Screenshot 2026-01-15 231717" src="https://github.com/user-attachments/assets/a524a4bc-37d6-45a5-98b1-7f797067ce9f" />
 
 7. Located the website root under:
 
