@@ -47,8 +47,31 @@ To efficiently search through multiple client-side source files and locate sensi
 4. Recognized that manually scanning each file would be inefficient.
 5. Opened **Developer Tools** by right-clicking on the page and selecting **Inspect**.
 6. Navigated to the **Sources** tab in Developer Tools.
+7. Located the website root under: http://saturn.picoctf.net:52349/
 
 <img width="1917" height="969" alt="Screenshot 2026-01-15 231717" src="https://github.com/user-attachments/assets/a524a4bc-37d6-45a5-98b1-7f797067ce9f" />
 
-7. Located the website root under:
+8. Observed multiple files and directories, including:
+- HTML files
+- CSS files
+- JavaScript files
+- Image resources
+9. Right-clicked on the website root inside the **Sources** tab.
+10. Selected **Search in all files**.
+
+
+11. Used the global search feature to search for:
+ ```
+ pico
+ ```
+ (the known prefix of picoCTF flags)
+
+---
+
+12. The search returned a match inside the `style.css` file.
+13. Opened `style.css` and located the flag embedded within the file.
+
+---
+
+## Flag (Masked)
 
