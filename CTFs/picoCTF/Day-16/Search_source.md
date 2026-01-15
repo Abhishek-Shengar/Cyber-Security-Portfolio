@@ -59,17 +59,16 @@ To efficiently search through multiple client-side source files and locate sensi
 9. Right-clicked on the website root inside the **Sources** tab.
 10. Selected **Search in all files**.
 
+<img width="1918" height="968" alt="Screenshot 2026-01-15 231746" src="https://github.com/user-attachments/assets/f1931ddc-6cad-4231-99b3-e5c2a7cce143" />
 
 11. Used the global search feature to search for:
  ```
  pico
  ```
  (the known prefix of picoCTF flags)
+12. The search returned a match inside the `style.css` file and located the flag embedded within the file.
 
----
-
-12. The search returned a match inside the `style.css` file.
-13. Opened `style.css` and located the flag embedded within the file.
+<img width="1919" height="969" alt="Flag" src="https://github.com/user-attachments/assets/533dd5e9-a837-45be-81fe-deade5bdfbc7" />
 
 ---
 
