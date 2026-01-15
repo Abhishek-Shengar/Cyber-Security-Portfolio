@@ -74,3 +74,14 @@ To efficiently search through multiple client-side source files and locate sensi
 
 ## Flag (Masked)
 picoCTF{***************}
+
+---
+
+## Summary
+This challenge emphasized the importance of **efficient source code analysis** when dealing with large web applications.
+
+Instead of manually reviewing each file, I used browser developer tools to perform a global search across all loaded resources. By searching for known flag patterns, I was able to quickly identify the sensitive artifact left in a CSS file. This challenge demonstrated how developer mistakes in client-side files can lead to information disclosure.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
