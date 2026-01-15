@@ -73,4 +73,4 @@ To efficiently search through multiple client-side source files and locate sensi
 ---
 
 ## Flag (Masked)
-
+picoCTF{***************}
