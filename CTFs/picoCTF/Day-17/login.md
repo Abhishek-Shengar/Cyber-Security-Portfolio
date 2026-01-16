@@ -65,3 +65,14 @@ To analyze client-side JavaScript files and identify encoded sensitive informati
 ## Flag (Masked)
 picoCTF{***************}
 
+---
+
+## Summary
+This challenge focused on identifying sensitive information exposed in client-side JavaScript files.
+
+By inspecting linked JavaScript resources and recognizing an encoded string, I was able to decode the value using Base64 and retrieve the flag. This challenge demonstrates how embedding secrets in client-side code—even in encoded form—can lead to information disclosure.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
+
