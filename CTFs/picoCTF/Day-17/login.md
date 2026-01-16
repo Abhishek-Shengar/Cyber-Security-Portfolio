@@ -63,5 +63,5 @@ To analyze client-side JavaScript files and identify encoded sensitive informati
 ---
 
 ## Flag (Masked)
-
+picoCTF{***************}
 
