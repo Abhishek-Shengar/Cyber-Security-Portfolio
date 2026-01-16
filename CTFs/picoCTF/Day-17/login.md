@@ -14,8 +14,7 @@ Medium
 
 My dog-sitter's brother made this website but I can't get in; can you help?
 
-**URL:**  
-http://login.mars.picoctf.net/
+URL: http://login.mars.picoctf.net/
 
 ---
 
