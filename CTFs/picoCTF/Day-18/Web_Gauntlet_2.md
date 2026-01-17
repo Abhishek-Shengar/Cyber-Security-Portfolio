@@ -59,4 +59,34 @@ To bypass server-side input filters and exploit a SQL injection vulnerability in
 
 <img width="1919" height="967" alt="Screenshot 2026-01-17 182126" src="https://github.com/user-attachments/assets/91a45188-027c-48f3-9960-2bb9b9f1ba2d" />
 
+9. From this information, concluded that the application was filtering **common SQL injection payloads** and keywords.
+10. Based on SQLite behavior, researched **alternative logical operators** and filter bypass techniques.
+11. Identified that SQLite supports string concatenation using:
+ ```
+ ||
+ ```
+
+12. Crafted a filter-evasion SQL injection payload:
+ - **Username:**
+   ```
+   adm'||'in
+   ```
+ - **Password:**
+   ```
+   ' is not '0
+   ```
+
+<img width="1918" height="966" alt="Screenshot 2026-01-17 184712" src="https://github.com/user-attachments/assets/20787918-238a-4401-8a77-eb9b1c1df5c5" />
+
+13. Submitted the payload through the login form.
+14. The application displayed the message: Congrats! You won! Check out filter.php
+
+<img width="1919" height="969" alt="Screenshot 2026-01-17 183419" src="https://github.com/user-attachments/assets/c75bc813-b07a-4b1c-98e8-0a286d9ae254" />
+
+15. Navigated back to `/filter.php` and refreshed the page.
+16. The page revealed the flag.
+
+<img width="1919" height="967" alt="Screenshot 2026-01-17 182157" src="https://github.com/user-attachments/assets/ad6239f8-e2c1-414d-9558-095126e29e2b" />
+
+## Flag (Masked)
 
