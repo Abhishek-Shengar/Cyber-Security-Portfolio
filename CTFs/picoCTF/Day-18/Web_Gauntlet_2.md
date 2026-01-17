@@ -52,6 +52,11 @@ To bypass server-side input filters and exploit a SQL injection vulnerability in
 5. Inspected the page source but did not find any useful credentials or flags.
 6. Noticed an encoded hash (SHA-384), but determined that it was not directly useful for authentication bypass.
 
----
+<img width="1919" height="949" alt="Screenshot 2026-01-17 182424" src="https://github.com/user-attachments/assets/fbe6ee16-5265-4dac-9ea7-f25847df9b10" />
 
-7. Opened the second provided URL: 
+7. Opened the second provided URL: /filter.php
+8. This page listed **filtered keywords and characters**, including: or, and, true, false, union, like, =, >, <, ;, --, /* */, admin
+
+<img width="1919" height="967" alt="Screenshot 2026-01-17 182126" src="https://github.com/user-attachments/assets/91a45188-027c-48f3-9960-2bb9b9f1ba2d" />
+
+
