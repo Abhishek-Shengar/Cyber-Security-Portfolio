@@ -45,6 +45,9 @@ To bypass server-side input filters and exploit a SQL injection vulnerability in
 3. Attempted to log in using:
    - **Username:** admin  
    - **Password:** random value  
+
+<img width="1919" height="965" alt="Screenshot 2026-01-17 182319" src="https://github.com/user-attachments/assets/e9f18346-fd4c-4d62-b382-4cba60577556" />
+
 4. The application rejected the login attempt, indicating that authentication checks were enforced.
 
 <img width="1919" height="967" alt="Screenshot 2026-01-17 182335" src="https://github.com/user-attachments/assets/47e711f9-ba31-4d64-9dc5-13a5a4b2e267" />
@@ -61,11 +64,7 @@ To bypass server-side input filters and exploit a SQL injection vulnerability in
 
 9. From this information, concluded that the application was filtering **common SQL injection payloads** and keywords.
 10. Based on SQLite behavior, researched **alternative logical operators** and filter bypass techniques.
-11. Identified that SQLite supports string concatenation using:
- ```
- ||
- ```
-
+11. Identified that SQLite supports string concatenation using: || ( Logical OR )
 12. Crafted a filter-evasion SQL injection payload:
  - **Username:**
    ```
