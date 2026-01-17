@@ -88,5 +88,18 @@ To bypass server-side input filters and exploit a SQL injection vulnerability in
 
 <img width="1919" height="967" alt="Screenshot 2026-01-17 182157" src="https://github.com/user-attachments/assets/ad6239f8-e2c1-414d-9558-095126e29e2b" />
 
-## Flag (Masked)
+---
 
+## Flag (Masked)
+picoCTF{***************}
+
+---
+
+## Summary
+This challenge focused on exploiting a **SQL injection vulnerability with strict input filtering**.
+
+By analyzing the blocked keywords and understanding SQLite-specific behavior, I was able to craft a payload that bypassed the filters using string concatenation and logical comparisons. This challenge demonstrated how incomplete filtering and reliance on blacklists can still allow successful SQL injection attacks.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
