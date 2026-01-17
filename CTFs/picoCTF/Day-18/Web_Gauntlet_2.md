@@ -15,11 +15,9 @@ Medium
 This website looks familiar...  
 Log in as **admin**.
 
-**Site:**  
-http://wily-courier.picoctf.net:61211/
+Site: http://wily-courier.picoctf.net:61211/
 
-**Filter:**  
-http://wily-courier.picoctf.net:61211/filter.php
+Filter: http://wily-courier.picoctf.net:61211/filter.php
 
 ---
 
