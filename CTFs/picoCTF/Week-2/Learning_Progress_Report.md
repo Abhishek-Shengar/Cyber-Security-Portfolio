@@ -26,7 +26,7 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ## Skills & Techniques Learned
 
-# Cookie Analysis & Manipulation
+### Cookie Analysis & Manipulation
 - Inspecting cookies using browser developer tools
 - Identifying encoded values stored in cookies
 - Decoding cookie values using Base64
@@ -34,7 +34,7 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ---
 
-# Authentication & Access Control Weaknesses
+### Authentication & Access Control Weaknesses
 - Analyzing login behavior and error messages
 - Identifying insecure client-side authorization checks
 - Modifying application storage values (e.g., `admin = false → true`)
@@ -42,7 +42,7 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ---
 
-# Web Enumeration & Reconnaissance
+### Web Enumeration & Reconnaissance
 - Inspecting HTML source, CSS, and JavaScript files
 - Discovering sensitive data across client-side resources
 - Enumerating server files such as:
@@ -53,14 +53,14 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ---
 
-# Client-Side Code Analysis
+### Client-Side Code Analysis
 - Analyzing minified HTML
 - Reading JavaScript logic to identify encryption/decryption routines
 - Identifying insecure design patterns in front-end code
 
 ---
 
-# Encoding & Decoding
+### Encoding & Decoding
 - Recognizing Base64-encoded data
 - Decoding encoded strings using **CyberChef**
 - Understanding how encoded values are used to hide sensitive information
