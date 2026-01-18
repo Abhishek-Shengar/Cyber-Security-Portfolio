@@ -38,7 +38,7 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ---
 
-### 📂 File Access & Path Traversal
+### File Access & Path Traversal
 - Understanding Linux file system structure
 - Using relative paths (`../`) to bypass absolute path filters
 - Exploiting directory traversal vulnerabilities to access sensitive files
@@ -46,7 +46,7 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ---
 
-### 🍪 Cookie-Based Authorization Flaws
+### Cookie-Based Authorization Flaws
 - Identifying cookies used for access control (`isAdmin`)
 - Modifying boolean cookie values to escalate privileges
 - Understanding why client-side authorization checks are insecure
@@ -54,7 +54,7 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ---
 
-### 🔍 Advanced Source Code Analysis
+### Advanced Source Code Analysis
 - Efficiently searching through large codebases
 - Using **Developer Tools → Sources** instead of manual inspection
 - Performing global searches across all loaded resources
@@ -62,7 +62,7 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ---
 
-### 🧩 Client-Side JavaScript Vulnerabilities
+### Client-Side JavaScript Vulnerabilities
 - Analyzing JavaScript logic for hidden or encoded data
 - Identifying Base64-encoded secrets in client-side files
 - Decoding encoded values using **CyberChef**
