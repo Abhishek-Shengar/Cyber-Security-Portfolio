@@ -27,7 +27,7 @@ All challenges were solved in **legal, controlled environments** for educational
 
 ## Skills & Techniques Learned
 
-### 💉 SQL Injection (Intermediate Level)
+# SQL Injection (Intermediate Level)
 - Identifying SQL Injection vulnerabilities based on application behavior
 - Using boolean logic (`OR 1=1`) for authentication bypass
 - Understanding SQLite-specific behavior
