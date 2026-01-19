@@ -14,8 +14,7 @@ Medium
 
 Now presenting cowsay as a service.
 
-**URL:**  
-https://caas.mars.picoctf.net/
+URL: https://caas.mars.picoctf.net/
 
 ---
 
