@@ -76,6 +76,7 @@ https://caas.mars.picoctf.net/cowsay/{message}
 ---
 
 ## Flag (Masked)
+picoCTF{***************}
 
 ---
 
