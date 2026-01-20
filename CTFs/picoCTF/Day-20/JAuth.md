@@ -22,8 +22,7 @@ You can log in as:
 - **Username:** test  
 - **Password:** Test123!
 
-**URL:**  
-http://saturn.picoctf.net:50936/
+URL: http://saturn.picoctf.net:50936/
 
 ---
 
