@@ -98,3 +98,15 @@ To identify and exploit a vulnerability in JSON Web Token (JWT) authentication b
 ---
 
 ## Flag (Masked)
+picoCTF{***************}
+
+---
+
+## Summary
+This challenge demonstrated a critical **JWT misconfiguration vulnerability**.
+
+By exploiting the application's failure to properly validate JWT signatures and algorithms, I was able to modify the token’s payload and escalate privileges from a regular user to an administrator. This highlights the risks of insecure JWT implementations, especially when applications trust client-controlled tokens without enforcing strict signature verification.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
