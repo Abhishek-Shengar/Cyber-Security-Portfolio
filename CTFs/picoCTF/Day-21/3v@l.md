@@ -85,5 +85,17 @@ Example logic: open(chr(47)+'f'+'l'+'a'+'g'+chr(46)+'t'+'x'+'t').read()
 ---
 
 ## Flag (Masked)
+picoCTF{***************}
+
+---
+
+## Summary
+This challenge demonstrated a critical **Remote Code Execution (RCE)** vulnerability caused by unsafe use of Python’s `eval()` function.
+
+By understanding how `eval()` executes arbitrary Python expressions and using dynamic string construction to bypass regex-based input filtering, I was able to execute system-level file access and read a sensitive file. This highlights why `eval()` should never be used on untrusted user input and why input validation alone is not sufficient for security.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
 
 
