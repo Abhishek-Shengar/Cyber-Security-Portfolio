@@ -22,8 +22,7 @@ Bypassing this will give you **Remote Code Execution (RCE)**.
 - The flag file is `/flag.txt`
 - You might need encoding or dynamic construction to bypass restrictions
 
-**URL:**  
-http://shape-facility.picoctf.net:64002/
+URL: http://shape-facility.picoctf.net:64002/
 
 ---
 
