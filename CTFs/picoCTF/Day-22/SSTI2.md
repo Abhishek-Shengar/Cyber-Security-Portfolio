@@ -81,3 +81,14 @@ To exploit a Server-Side Template Injection (SSTI) vulnerability while bypassing
 
 ## Flag (Masked)
 picoCTF{***************}
+
+---
+
+## Summary
+This challenge demonstrated a **Server-Side Template Injection vulnerability with input filtering**.
+
+Although the application attempted to sanitize user input by blocking dangerous characters, it relied on blacklisting rather than secure design. By dynamically constructing restricted attribute names using hex encoding, I was able to bypass the filters, execute server-side commands, and read sensitive files. This highlights why template engines must never process untrusted user input without strict sandboxing.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
