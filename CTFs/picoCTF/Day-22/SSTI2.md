@@ -37,7 +37,7 @@ To exploit a Server-Side Template Injection (SSTI) vulnerability while bypassing
 ## Methodology
 
 1. Opened the challenge URL in a web browser.
-2. The homepage displayed an input field asking: What do you want to announce?
+2. The homepage displayed an input field asking: I built a cool website that lets you announce whatever you want!* What do you want to announce?
 
 <img width="1919" height="963" alt="Screenshot 2026-01-22 212633" src="https://github.com/user-attachments/assets/8b83b3df-bc3b-49af-8244-acd839376829" />
 
