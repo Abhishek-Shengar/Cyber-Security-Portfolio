@@ -16,8 +16,7 @@ I made a cool website where you can announce whatever you want!
 I read about input sanitization, so now I remove any kind of characters that could be a problem :)  
 I heard templating is a cool and modular way to build web apps!
 
-**URL:**  
-http://shape-facility.picoctf.net:54951/
+URL: http://shape-facility.picoctf.net:54951/
 
 ---
 
@@ -81,3 +80,4 @@ To exploit a Server-Side Template Injection (SSTI) vulnerability while bypassing
 ---
 
 ## Flag (Masked)
+picoCTF{***************}
