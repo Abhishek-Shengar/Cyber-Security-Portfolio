@@ -170,7 +170,6 @@ This technique is useful for:
 - Social engineering assessments  
 - Understanding digital footprint exposure  
 
-
 ---
 
 ## Conclusion
