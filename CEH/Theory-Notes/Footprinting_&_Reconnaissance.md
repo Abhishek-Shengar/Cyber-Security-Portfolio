@@ -118,4 +118,17 @@ Subdomain enumeration helps in expanding the attack surface by identifying **add
 **Installation:**
 ```bash
 apt install sublist3r
+```
+Usage:
+```bash
+sublist3r -d <domain-name>
+```
+Example:
+```bash
+sublist3r -d eccouncil.org
+```
+This technique can reveal:
+- Admin panels
+- Development environments
+- Legacy or forgotten services
 
