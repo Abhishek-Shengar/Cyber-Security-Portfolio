@@ -132,3 +132,35 @@ This technique can reveal:
 - Development environments
 - Legacy or forgotten services
 
+## Passive Operating System Fingerprinting
+
+The target operating system can often be identified **without active scanning** using:
+
+- Netcraft  
+- Shodan  
+- Censys  
+
+Passive OS fingerprinting helps in understanding:
+- Possible vulnerabilities  
+- System architecture  
+- Attack feasibility  
+
+---
+
+## Social Media & Username Enumeration
+
+### Gathering Personal Information Using Sherlock
+
+Sherlock is used to check **username availability across multiple social networking platforms**.
+
+This technique is useful for:
+- OSINT investigations  
+- Social engineering assessments  
+- Understanding digital footprint exposure  
+
+---
+
+## Conclusion
+
+Footprinting and reconnaissance form the **foundation of ethical hacking**.  
+Accurate and stealthy information gathering enables better planning, safer testing, and more effective security assessments.
