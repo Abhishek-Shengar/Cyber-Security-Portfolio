@@ -153,10 +153,23 @@ Passive OS fingerprinting helps in understanding:
 
 Sherlock is used to check **username availability across multiple social networking platforms**.
 
+**Installation:**
+```bash
+apt install sherlock
+```
+Usage:
+```bash
+sherlock <username>
+```
+Example:
+```bash
+sherlock ElonMusk
+```
 This technique is useful for:
 - OSINT investigations  
 - Social engineering assessments  
 - Understanding digital footprint exposure  
+
 
 ---
 
