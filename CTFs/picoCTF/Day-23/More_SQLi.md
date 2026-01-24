@@ -76,3 +76,15 @@ To exploit a SQL Injection vulnerability in a login form and analyze server resp
 ---
 
 ## Flag (Masked)
+picoCTF{***************}
+
+---
+
+## Summary
+This challenge demonstrated how SQL Injection vulnerabilities can lead to unintended information disclosure.
+
+By injecting a logical condition into the login query, I bypassed authentication and triggered database output. Analyzing the HTTP responses—particularly redirect responses—revealed sensitive information that should not have been exposed. This highlights the importance of proper input sanitization and careful handling of server responses.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
