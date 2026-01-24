@@ -71,7 +71,7 @@ To exploit a SQL Injection vulnerability in a login form and analyze server resp
 11. Inspected the **302 redirect responses** carefully.
 12. Found that one of the responses contained sensitive data in the response body, including the flag.
 
-<img width="1919" height="1015" alt="Screenshot 2026-01-24 185206" src="https://github.com/user-attachments/assets/643dd260-c8b2-4cf5-a302-d092c637c4c7" />
+<img width="1919" height="1016" alt="Screenshot 2026-01-24 190814" src="https://github.com/user-attachments/assets/7505e3d8-51f9-4e51-8860-bf1d4a9ea22b" />
 
 ---
 
