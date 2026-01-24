@@ -76,3 +76,5 @@ I was redirected here by a friend of mine but I couldn't find anything. Help me 
 ---
 
 ## Flag (Masked)
+picoCTF{***************}
+
