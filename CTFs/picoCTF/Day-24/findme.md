@@ -78,3 +78,14 @@ I was redirected here by a friend of mine but I couldn't find anything. Help me 
 ## Flag (Masked)
 picoCTF{***************}
 
+---
+
+## Summary
+This challenge focused on **analyzing HTTP redirects and encoded URL parameters**.
+
+Although the page itself did not visibly display the flag, inspecting the network traffic revealed encoded data hidden within redirect responses. By identifying the encoding format and decoding the data, I was able to retrieve the flag. This challenge highlights the importance of monitoring HTTP traffic, as sensitive information can sometimes be unintentionally exposed during redirects.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
+
