@@ -27,7 +27,7 @@ All activities were performed in **legal, controlled environments** for educatio
 
 ## Skills & Techniques Learned
 
-### 💻 Remote Code Execution (RCE)
+### Remote Code Execution (RCE)
 - Identified unsafe use of system commands in web services
 - Exploited **command injection** using shell substitution
 - Achieved file read access on the server
