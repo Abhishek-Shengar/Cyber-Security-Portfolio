@@ -53,7 +53,7 @@ All activities were performed in **legal, controlled environments** for educatio
 
 ---
 
-### 🧩 Server-Side Template Injection (SSTI)
+### Server-Side Template Injection (SSTI)
 - Identified Jinja2-based template rendering
 - Exploited SSTI to access Python internals
 - Bypassed character filtering using hex encoding
