@@ -35,7 +35,7 @@ All activities were performed in **legal, controlled environments** for educatio
 
 ---
 
-### 🔐 JWT Authentication & Authorization Flaws
+### JWT Authentication & Authorization Flaws
 - Identified JWT tokens stored in browser cookies
 - Decoded JWT headers and payloads
 - Exploited **`alg: none`** misconfiguration
@@ -44,7 +44,7 @@ All activities were performed in **legal, controlled environments** for educatio
 
 ---
 
-### 🧮 Python `eval()` Injection
+### Python `eval()` Injection
 - Recognized error messages indicating use of `eval()`
 - Exploited unsafe evaluation of user input
 - Bypassed regex filters using **dynamic string construction**
