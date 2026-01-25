@@ -62,7 +62,7 @@ All activities were performed in **legal, controlled environments** for educatio
 
 ---
 
-### 💉 Advanced SQL Injection
+### Advanced SQL Injection
 - Performed authentication bypass using SQL injection
 - Used SQLite-specific logic and operators
 - Analyzed SQL queries reflected by the application
@@ -71,7 +71,7 @@ All activities were performed in **legal, controlled environments** for educatio
 
 ---
 
-### 🌐 HTTP Traffic & Redirect Analysis
+### HTTP Traffic & Redirect Analysis
 - Used Browser DevTools Network tab for inspection
 - Analyzed redirect chains (302 responses)
 - Identified sensitive data in URL parameters
