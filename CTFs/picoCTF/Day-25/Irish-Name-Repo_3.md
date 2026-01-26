@@ -45,5 +45,5 @@ To bypass authentication by exploiting a filtered SQL Injection vulnerability in
 
 ---
 
-6. Attempted a classic SQL Injection payload:
+6. Attempted a classic SQL Injection payload: ' OR 1=1;--
 
