@@ -70,6 +70,9 @@ indicating that:
  ' be 1=1;--
  ```
 12. Submitted the payload in the password field.
+
+<img width="1919" height="967" alt="Screenshot 2026-01-26 102559" src="https://github.com/user-attachments/assets/0a2243f3-bfae-4db9-ae3e-4d80708fc12a" />
+
 13. The backend decoded the input internally, reconstructing a valid SQL condition.
 14. Authentication was bypassed, and admin access was granted.
 15. The application revealed the flag.
@@ -79,5 +82,16 @@ indicating that:
 ---
 
 ## Flag (Masked)
+picoCTF{***************}
 
+---
+
+## Summary
+This challenge demonstrated how **input transformation mechanisms**, such as ROT13 encoding, can be abused to bypass SQL Injection filters.
+
+Although the application attempted to block common SQL keywords, it relied on insecure filtering rather than proper parameterized queries. By encoding the SQL keyword using ROT13, I was able to bypass the filter and execute a successful authentication bypass. This highlights why keyword-based filtering is ineffective against SQL Injection attacks.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
 
