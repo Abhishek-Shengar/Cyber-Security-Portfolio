@@ -60,20 +60,19 @@ indicating that:
 <img width="1919" height="965" alt="Screenshot 2026-01-26 102658" src="https://github.com/user-attachments/assets/d4a657af-fe0d-4361-b308-57ffaa35d7d0" />
 
 8. From the error behavior and challenge context, inferred that **SQL keywords were being filtered or modified**.
-9. Researched similar challenges and identified that this application applies **ROT13 encoding** to certain SQL keywords.
-
----
-
+9. Researched and identified that this application applies **ROT13 encoding** to certain SQL keywords.
 10. Since:
  ```
  or  → be  (ROT13)
  ```
- crafted a ROT13-encoded SQL Injection payload:' be 1=1;--
-
-11. Submitted the payload in the password field.
-12. The backend decoded the input internally, reconstructing a valid SQL condition.
-13. Authentication was bypassed, and admin access was granted.
-14. The application revealed the flag.
+11. Crafted a ROT13-encoded SQL Injection payload: ' be 1=1;--
+ ```
+ ' be 1=1;--
+ ```
+12. Submitted the payload in the password field.
+13. The backend decoded the input internally, reconstructing a valid SQL condition.
+14. Authentication was bypassed, and admin access was granted.
+15. The application revealed the flag.
 
 <img width="1919" height="967" alt="Screenshot 2026-01-26 102610" src="https://github.com/user-attachments/assets/a2dee1b8-a76c-4ccd-a3b2-cf5802faf315" />
 
