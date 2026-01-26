@@ -36,14 +36,49 @@ To bypass authentication by exploiting a filtered SQL Injection vulnerability in
 
 1. Opened the challenge URL in a web browser.
 2. The homepage displayed a list of people with their names and quotes.
+
+<img width="1919" height="968" alt="Screenshot 2026-01-26 101633" src="https://github.com/user-attachments/assets/085e4683-f59c-4661-a526-5b4dcc160c59" />
+
 3. Opened the side menu and selected **Admin Login**.
 
----
+<img width="1919" height="968" alt="Screenshot 2026-01-26 101657" src="https://github.com/user-attachments/assets/887c8037-44ce-4580-8190-b710ee786308" />
 
 4. The Admin Login page displayed an input field requesting a password.
+
+<img width="1919" height="966" alt="Screenshot 2026-01-26 101711" src="https://github.com/user-attachments/assets/781304f4-1f7c-4d72-ab5a-0672222e0f09" />
+
 5. Inspected the page source using **Ctrl + U**, but no credentials or flag were found.
+6. Attempted a classic SQL Injection payload: ' OR 1=1;--
+
+<img width="1919" height="967" alt="Screenshot 2026-01-26 102559" src="https://github.com/user-attachments/assets/9df88bcc-faa3-4dd8-94d0-4849817ec732" />
+
+7. The application returned an error message: SQLite3::query(): Unable to prepare statement
+indicating that:
+- The backend database was **SQLite**
+- Input was being filtered or transformed before execution
+
+<img width="1919" height="965" alt="Screenshot 2026-01-26 102658" src="https://github.com/user-attachments/assets/d4a657af-fe0d-4361-b308-57ffaa35d7d0" />
+
+8. From the error behavior and challenge context, inferred that **SQL keywords were being filtered or modified**.
+9. Researched similar challenges and identified that this application applies **ROT13 encoding** to certain SQL keywords.
 
 ---
 
-6. Attempted a classic SQL Injection payload: ' OR 1=1;--
+10. Since:
+ ```
+ or  → be  (ROT13)
+ ```
+ crafted a ROT13-encoded SQL Injection payload:' be 1=1;--
+
+11. Submitted the payload in the password field.
+12. The backend decoded the input internally, reconstructing a valid SQL condition.
+13. Authentication was bypassed, and admin access was granted.
+14. The application revealed the flag.
+
+<img width="1919" height="967" alt="Screenshot 2026-01-26 102610" src="https://github.com/user-attachments/assets/a2dee1b8-a76c-4ccd-a3b2-cf5802faf315" />
+
+---
+
+## Flag (Masked)
+
 
