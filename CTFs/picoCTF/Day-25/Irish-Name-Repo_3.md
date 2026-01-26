@@ -14,8 +14,7 @@ Medium
 
 Try to see if you can login as admin!
 
-**URL:**  
-http://fickle-tempest.picoctf.net:62095/
+URL: http://fickle-tempest.picoctf.net:62095/
 
 ---
 
