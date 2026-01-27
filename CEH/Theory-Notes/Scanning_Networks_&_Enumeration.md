@@ -287,8 +287,7 @@ Used to extract information from **Remote Procedure Call (RPC)** services.
 
 - Nmap (NSE scripts)  
 - enum4linux  
-- SNMPwalk  
-- rpcclient  
+- SNMPwalk    
 - Netcat  
 - Metasploit auxiliary modules  
 
