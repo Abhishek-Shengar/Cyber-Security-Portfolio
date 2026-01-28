@@ -87,5 +87,13 @@ Enter valid credentials to proceed along with an input box for a password.
 ## Flag (Masked)
 picoCTF{***************}
 
+---
 
+## Summary
+This challenge demonstrated how **client-side-only authentication mechanisms** can be bypassed through JavaScript analysis.
 
+Even though the password verification logic was obfuscated, it was fully exposed to the user. By decoding the obfuscated strings and understanding how the verification function checked substrings, I was able to reconstruct the correct password. This highlights why sensitive authentication logic must never be implemented solely on the client side.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
