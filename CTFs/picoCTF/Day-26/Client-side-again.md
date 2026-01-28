@@ -14,8 +14,7 @@ Medium
 
 Can you break into this super secure portal?
 
-**URL:**  
-http://fickle-tempest.picoctf.net:51090/
+URL: http://fickle-tempest.picoctf.net:51090/
 
 ---
 
