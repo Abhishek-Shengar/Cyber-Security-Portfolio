@@ -85,6 +85,7 @@ Enter valid credentials to proceed along with an input box for a password.
 ---
 
 ## Flag (Masked)
+picoCTF{***************}
 
 
 
