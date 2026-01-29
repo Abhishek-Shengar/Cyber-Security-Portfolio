@@ -71,4 +71,8 @@ strings disko-1.dd | grep picoCTF
 ```
 11. The command returned a matching string containing the flag.
 
+---
+
+## Flag (Masked)
+picoCTF{***************}
 
