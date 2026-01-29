@@ -14,8 +14,7 @@ Easy
 
 Can you find the flag in this disk image?
 
-**Download Link:**  
-https://artifacts.picoctf.net/c/538/disko-1.dd.gz
+Download Link: https://artifacts.picoctf.net/c/538/disko-1.dd.gz
 
 ---
 
