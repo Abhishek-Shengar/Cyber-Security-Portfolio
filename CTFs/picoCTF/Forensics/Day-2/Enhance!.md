@@ -1,4 +1,4 @@
-<img width="1919" height="1079" alt="Screenshot 2026-01-30 184315" src="https://github.com/user-attachments/assets/0c390f21-5246-4ebd-8d29-99c41439222e" /># Day 2 – picoCTF Forensics Challenge
+# Day 2 – picoCTF Forensics Challenge
 
 ## Challenge Name
 Enhance!
@@ -65,6 +65,9 @@ strings drawing.flag.svg
 strings drawing.flag.svg | grep tspan
 ```
 11. Carefully analyzed the output and identified individual characters stored between SVG tags.
+
+<img width="1919" height="1079" alt="Screenshot 2026-01-30 184315" src="https://github.com/user-attachments/assets/77933cd4-e089-4cb0-b705-48cd42642b7b" />
+
 12. Manually reconstructed the flag by combining these characters in the correct sequence.
 
 ---
