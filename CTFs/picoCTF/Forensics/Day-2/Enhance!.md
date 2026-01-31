@@ -72,7 +72,7 @@ strings drawing.flag.svg | grep tspan
 
 ---
 
-## Flag (Masked)
+## Flag
 picoCTF{***************}
 
 ---
