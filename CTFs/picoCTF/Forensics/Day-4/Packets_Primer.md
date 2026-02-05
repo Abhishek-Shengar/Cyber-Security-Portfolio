@@ -14,8 +14,7 @@ Medium
 
 Download the packet capture file and use packet analysis software to find the flag.
 
-Download Link:
-https://artifacts.picoctf.net/c/196/network-dump.flag.pcap
+Download Link: https://artifacts.picoctf.net/c/196/network-dump.flag.pcap
 
 ---
 
@@ -66,14 +65,19 @@ wireshark network-dump.flag.pcap
 12. The reconstructed TCP stream displayed the flag with spaces between each character.
 13. Manually removed the spaces to reconstruct the complete flag.
 
+<img width="1919" height="1079" alt="Screenshot 2026-02-05 231408" src="https://github.com/user-attachments/assets/e31bcc7e-d67e-4207-85e9-bb9bf7083e62" />
+
 ---
 
 ## Flag
 picoCTF{***************}
 
+---
 
-<img width="1919" height="1079" alt="Screenshot 2026-02-05 231408" src="https://github.com/user-attachments/assets/e31bcc7e-d67e-4207-85e9-bb9bf7083e62" />
+Summary
 
+This challenge introduced basic network forensics using packet capture analysis.
 
+By analyzing a PCAP file in Wireshark and following the TCP stream, I was able to reconstruct hidden data transmitted across network packets. This challenge demonstrated how sensitive information can be exposed through network traffic and how packet analysis tools can be used to recover such data.
 
-
+📌 All activities were performed in a legal and controlled CTF environment for educational purposes only.
