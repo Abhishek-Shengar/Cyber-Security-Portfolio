@@ -39,3 +39,19 @@ To analyze a packet capture (PCAP) file using network forensics tools and extrac
 ```bash
 wget https://artifacts.picoctf.net/c/196/network-dump.flag.pcap
 ```
+4. Verified the file type to confirm it was a packet capture file:
+```bash
+file network-dump.flag.pcap
+```
+5. Confirmed that the file was a PCAP (packet capture) file.
+6. Opened the packet capture file using Wireshark:
+```bash
+wireshark network-dump.flag.pcap
+```
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-05 231135" src="https://github.com/user-attachments/assets/1c62d01b-61d2-49eb-80c1-7e3c2358aa23" />
+
+7. Wireshark launched and displayed all captured network packets.
+
+
+
