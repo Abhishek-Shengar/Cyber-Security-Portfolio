@@ -74,10 +74,14 @@ picoCTF{***************}
 
 ---
 
-Summary
+---
 
-This challenge introduced basic network forensics using packet capture analysis.
+## Summary
+This challenge introduced **basic network forensics using packet capture analysis**.
 
 By analyzing a PCAP file in Wireshark and following the TCP stream, I was able to reconstruct hidden data transmitted across network packets. This challenge demonstrated how sensitive information can be exposed through network traffic and how packet analysis tools can be used to recover such data.
 
-📌 All activities were performed in a legal and controlled CTF environment for educational purposes only.
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
+
