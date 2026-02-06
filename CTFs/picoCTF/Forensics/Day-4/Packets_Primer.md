@@ -74,8 +74,6 @@ picoCTF{***************}
 
 ---
 
----
-
 ## Summary
 This challenge introduced **basic network forensics using packet capture analysis**.
 
