@@ -43,3 +43,13 @@ To analyze a PDF document and recover sensitive information that was improperly 
 ```bash
 wget https://artifacts.picoctf.net/c/84/Financial_Report_for_ABC_Labs.pdf
 ```
+4. Verified the file type:
+```bash
+file Financial_Report_for_ABC_Labs.pdf
+```
+
+
+
+
+
+
