@@ -53,11 +53,17 @@ file Financial_Report_for_ABC_Labs.pdf
 5. Confirmed that the file was a PDF document.
 6. Opened the file manager and accessed the PDF file.
 7. Double-clicked the PDF to open it using the default PDF viewer.
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-07 184040" src="https://github.com/user-attachments/assets/89e5b8c3-268d-48da-a6cf-bf03bb883937" />
+
 8. Observed that the document contained readable text along with black boxes, indicating redacted content.
 9. Suspected that the redaction might have been performed visually rather than removing the underlying text.
 10. Selected the entire document text using Ctrl + A.
 11. Noticed that text underneath one of the black boxes became visible after selection.
 12. Identified sensitive information that had not been properly redacted.
+
+<img width="1919" height="1075" alt="Screenshot 2026-02-07 184014" src="https://github.com/user-attachments/assets/cb1c6b2e-eccc-45e8-9941-3addf0cd0a70" />
+
 13. Extracted the visible hidden text, which contained the flag.
 
 
