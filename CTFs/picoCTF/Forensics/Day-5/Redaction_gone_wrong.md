@@ -48,7 +48,17 @@ wget https://artifacts.picoctf.net/c/84/Financial_Report_for_ABC_Labs.pdf
 file Financial_Report_for_ABC_Labs.pdf
 ```
 
+<img width="1919" height="1079" alt="Screenshot 2026-02-07 183844" src="https://github.com/user-attachments/assets/f4a895e6-b451-49e7-a0b5-4ea100d504e8" />
 
+5. Confirmed that the file was a PDF document.
+6. Opened the file manager and accessed the PDF file.
+7. Double-clicked the PDF to open it using the default PDF viewer.
+8. Observed that the document contained readable text along with black boxes, indicating redacted content.
+9. Suspected that the redaction might have been performed visually rather than removing the underlying text.
+10. Selected the entire document text using Ctrl + A.
+11. Noticed that text underneath one of the black boxes became visible after selection.
+12. Identified sensitive information that had not been properly redacted.
+13. Extracted the visible hidden text, which contained the flag.
 
 
 
