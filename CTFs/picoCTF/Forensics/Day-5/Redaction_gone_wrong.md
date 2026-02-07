@@ -66,6 +66,11 @@ file Financial_Report_for_ABC_Labs.pdf
 
 13. Extracted the visible hidden text, which contained the flag.
 
+---
+
+## Flag
+picoCTF{***************}
+
 
 
 
