@@ -71,6 +71,13 @@ file Financial_Report_for_ABC_Labs.pdf
 ## Flag
 picoCTF{***************}
 
+---
 
+## Summary
+This challenge demonstrated **document forensics and improper redaction techniques**.
 
+By analyzing a PDF file with visually redacted content, I discovered that some sensitive information was still present beneath the redaction overlays. Selecting the document text revealed the hidden data, allowing recovery of the flag. This challenge highlights why proper redaction must remove underlying content, not just obscure it visually.
 
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
