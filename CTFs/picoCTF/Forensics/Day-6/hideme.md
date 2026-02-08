@@ -95,3 +95,13 @@ thunar flag.png
 ## Flag
 picoCTF{***************}
 
+---
+
+## Summary
+This challenge demonstrated **image forensics and hidden data extraction techniques**.
+
+By analyzing the PNG file with binwalk, I discovered that additional data was embedded within the image. Extracting the hidden ZIP archive revealed another image containing the flag. This challenge highlighted how files can conceal other files within them and the importance of checking for embedded content during forensic investigations.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
