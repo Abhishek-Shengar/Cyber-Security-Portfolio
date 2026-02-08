@@ -49,6 +49,9 @@ wget https://artifacts.picoctf.net/c/261/flag.png
 file flag.png
 ```
 5. Confirmed that the file was a PNG image.
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-08 214323" src="https://github.com/user-attachments/assets/25078dea-ebd1-4ce4-bbe8-227b37f2b828" />
+
 6. Suspecting hidden data inside the image, analyzed the file using binwalk:
 ```bash
 binwalk flag.png
@@ -58,11 +61,23 @@ binwalk flag.png
 ```bash
 binwalk --run-as=root -e flag.png
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-08 214738" src="https://github.com/user-attachments/assets/eaa989bc-047e-4710-829c-cbe2cdc2e9ea" />
+
 9. After extraction, a new directory named: _flag.png.extracted was created.
-10. Listed the contents of the extracted directory:
+10. Listed the contents of the extracted directory: 
+```bash
+ls _flag.png.extracted
+```
 11. Navigated into the directory:
+```bash
+cd _flag.png.extracted
+```
 12. Observed a subdirectory named: secret
 13. Navigated into the secret directory:
+```bash
+cd secret
+```
 14. Found another image file named flag.png.
 15. Opened the extracted image file using the file manager:
 ```bash
