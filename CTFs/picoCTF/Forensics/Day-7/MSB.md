@@ -36,15 +36,16 @@ To analyze an image for hidden data using **Most Significant Bit (MSB) steganogr
 1. Downloaded the PNG image file from the provided link.
 2. Opened the image using an image viewer and observed that it appeared visually normal at first glance.
 
----
+<img width="1919" height="1018" alt="Screenshot 2026-02-09 231931" src="https://github.com/user-attachments/assets/367f0582-786b-44a0-8ade-cc539de3f50d" />
 
 3. Based on the challenge description, noted that:
    - The image passed **LSB (Least Significant Bit)** analysis
    - Visual artifacts suggested data might be hidden using **MSB (Most Significant Bit)** manipulation
-
----
-
 4. Used an online steganography analysis tool (StegOnline) to further inspect the image.
+
+<img width="1919" height="966" alt="Screenshot 2026-02-09 233635" src="https://github.com/user-attachments/assets/8d4e801c-d407-449e-b2ba-9fec8649bdda" />
+
+
 5. Uploaded the PNG file to the tool.
 
 ---
