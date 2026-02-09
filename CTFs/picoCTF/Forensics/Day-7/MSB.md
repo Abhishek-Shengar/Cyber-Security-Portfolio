@@ -45,25 +45,27 @@ To analyze an image for hidden data using **Most Significant Bit (MSB) steganogr
 
 <img width="1919" height="966" alt="Screenshot 2026-02-09 233635" src="https://github.com/user-attachments/assets/8d4e801c-d407-449e-b2ba-9fec8649bdda" />
 
-
 5. Uploaded the PNG file to the tool.
 
----
+<img width="1919" height="966" alt="Screenshot 2026-02-09 233701" src="https://github.com/user-attachments/assets/d3851b0f-ef18-4a0f-9e6b-fecb5a10e234" />
 
 6. Selected the **Extract Files/Data** option to analyze embedded data.
+
+<img width="1919" height="970" alt="Screenshot 2026-02-09 231738" src="https://github.com/user-attachments/assets/1314975f-0b78-4161-b515-8e18a92f98a9" />
+
 7. In the bit-plane selection section, focused on the **7th bit plane** (Most Significant Bit).
+
+<img width="1919" height="970" alt="Screenshot 2026-02-09 231815" src="https://github.com/user-attachments/assets/0c098805-4d87-4b5d-a9cb-4ee1ffd96761" />
+
 8. Enabled extraction for all color channels:
    - Red (R)
    - Green (G)
    - Blue (B)
 
----
+<img width="1919" height="963" alt="Screenshot 2026-02-09 231835" src="https://github.com/user-attachments/assets/0d5d0698-14f6-46be-9078-2a5bf808f680" />
 
 9. Executed the extraction process.
 10. The tool produced extracted data from the image.
-
----
-
 11. Downloaded the extracted data and opened it using a text editor.
 12. Searched within the extracted content for the picoCTF flag pattern.
 13. Identified the flag within the extracted data.
