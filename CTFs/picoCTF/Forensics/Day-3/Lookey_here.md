@@ -7,7 +7,7 @@ Lookey here
 Forensics
 
 ## Difficulty
-Easy
+Medium
 
 ## Description / Problem Statement
 **Author:** LT ‘syreal’ Jones / Mubarak Mikail  
