@@ -66,9 +66,17 @@ To analyze an image for hidden data using **Most Significant Bit (MSB) steganogr
 
 9. Executed the extraction process.
 10. The tool produced extracted data from the image.
+
+<img width="1919" height="967" alt="Screenshot 2026-02-09 231906" src="https://github.com/user-attachments/assets/9cc6379c-84ac-4ac9-8755-cca6cd95ed01" />
+
 11. Downloaded the extracted data and opened it using a text editor.
+
+<img width="1919" height="974" alt="Screenshot 2026-02-09 232051" src="https://github.com/user-attachments/assets/0d45a1d6-938d-43e1-a57e-7c62a7d0ff32" />
+
 12. Searched within the extracted content for the picoCTF flag pattern.
 13. Identified the flag within the extracted data.
+
+<img width="1919" height="974" alt="Screenshot 2026-02-09 232249" src="https://github.com/user-attachments/assets/d11ca578-1aa1-4653-8338-f5f504439eac" />
 
 ---
 
@@ -85,4 +93,3 @@ Although the image did not reveal hidden data through traditional LSB analysis, 
 ---
 
 📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
-
