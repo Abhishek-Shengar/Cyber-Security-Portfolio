@@ -50,7 +50,7 @@ file wpa-ing_out.pcap
 
 <img width="1919" height="1079" alt="Screenshot 2026-02-10 172247" src="https://github.com/user-attachments/assets/9e433cab-6afb-40b7-95e0-6c7a8b2281c6" />
 
-5. Confirmed that the file was a PCAP (wireless packet capture) file.
+5. Confirmed that the file was a PCAP (Wireless Packet Capture) file.
 6. Based on the provided hint, identified that aircrack-ng could be used to crack WPA/WPA2 passwords from captured handshakes.
 7. Located the rockyou.txt wordlist in the directory:
 ```bash
