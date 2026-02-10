@@ -1,4 +1,4 @@
-<img width="1919" height="1076" alt="Screenshot 2026-02-10 175228" src="https://github.com/user-attachments/assets/97a75006-b642-4140-b73a-8ff038cc667c" /># Day 8 – picoCTF Forensics Challenge
+# Day 8 – picoCTF Forensics Challenge
 
 ## Challenge Name
 WPA-ing Out
