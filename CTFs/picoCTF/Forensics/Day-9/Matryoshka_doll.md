@@ -96,6 +96,7 @@ flag.txt
 cat flag.txt
 ```
 
+<img width="1919" height="1079" alt="Screenshot 2026-02-11 224106" src="https://github.com/user-attachments/assets/b368584f-87b5-411c-b439-fb91c046ee64" />
 
 16. The contents displayed the flag.
 ---
