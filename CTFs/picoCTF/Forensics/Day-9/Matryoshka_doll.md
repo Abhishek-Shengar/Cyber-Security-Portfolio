@@ -86,10 +86,19 @@ flag.txt
 ```bash
 cat flag.txt
 ```
-16. Viewed the contents of the file:
+16. The contents displayed the flag.
+---
 
+## Flag (Masked)
+picoCTF{***************}
 
+---
 
+## Summary
+This challenge demonstrated **recursive file extraction and disguised file formats**.
 
+Although the file appeared to be a JPG image, it was actually a ZIP archive containing additional nested archives. By repeatedly extracting each layer—similar to opening Matryoshka dolls—I was able to reach the final embedded file containing the flag. This challenge highlights the importance of verifying file signatures rather than trusting file extensions.
 
+---
 
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
