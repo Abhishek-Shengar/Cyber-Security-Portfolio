@@ -85,6 +85,8 @@ cd base_images
 unzip 4_c.jpg
 ```
 
+<img width="1919" height="1079" alt="Screenshot 2026-02-11 223644" src="https://github.com/user-attachments/assets/44031e9a-d019-4a0c-9a85-7321eb8e106a" />
+
 14. Repeated the same steps recursively:
 ```bash
 flag.txt
@@ -93,6 +95,8 @@ flag.txt
 ```bash
 cat flag.txt
 ```
+
+
 16. The contents displayed the flag.
 ---
 
