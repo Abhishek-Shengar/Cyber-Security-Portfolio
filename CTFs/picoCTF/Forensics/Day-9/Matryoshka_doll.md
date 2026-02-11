@@ -48,6 +48,9 @@ wget https://challenge-files.picoctf.net/c_wily_courier/feaddb84eaaa2f8d6b83bda9
 ```bash
 file dolls.jpg
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-11 223035" src="https://github.com/user-attachments/assets/d6532eef-d011-4c9d-86a5-1723da005ff5" />
+
 5. Although the file had a .jpg extension, the file command revealed that it was actually a ZIP archive.
 6. Checked the file type:
 ```bash
