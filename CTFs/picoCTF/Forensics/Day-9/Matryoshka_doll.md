@@ -30,8 +30,6 @@ To identify and extract recursively nested files hidden within an image file unt
 - `wget`
 - `file`
 - `unzip`
-- `ls`
-- `cd`
 - `cat`
 
 ---
