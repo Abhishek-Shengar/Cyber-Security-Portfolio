@@ -73,6 +73,9 @@ cd base_images
 ```bash
 unzip 2_c.jpg
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-11 223618" src="https://github.com/user-attachments/assets/d0e4ea29-ed0d-40cc-b0f9-aa94de61542f" />
+
 12. This revealed another nested base_images directory.
 13. Repeated the same steps recursively:
 ```bash
@@ -81,6 +84,7 @@ unzip 3_c.jpg
 cd base_images
 unzip 4_c.jpg
 ```
+
 14. Repeated the same steps recursively:
 ```bash
 flag.txt
