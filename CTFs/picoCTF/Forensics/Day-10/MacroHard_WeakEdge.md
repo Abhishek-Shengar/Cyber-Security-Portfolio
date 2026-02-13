@@ -89,3 +89,13 @@ cat hidden
 picoCTF{***************}
 
 ---
+
+## Summary
+
+This challenge demonstrated **Office document forensics and hidden data extraction**.
+
+Although the file appeared to be a standard PowerPoint document, it was internally structured as a ZIP archive. By extracting its contents and inspecting the internal directory structure, I discovered a hidden file containing Base64-encoded data. Decoding the data revealed the flag. This challenge highlights the importance of analyzing file structures rather than relying solely on file extensions.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
