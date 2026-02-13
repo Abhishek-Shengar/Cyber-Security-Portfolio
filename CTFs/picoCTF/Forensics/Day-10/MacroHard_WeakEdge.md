@@ -16,8 +16,7 @@ I've hidden a flag in this file. Can you find it?
 
 File: Forensics_is_fun.pptm  
 
-Download Link:  
-https://challenge-files.picoctf.net/c_wily_courier/d78815176c19ddc85a1388233268d2f4c459fcbbaab197b4a29ebafc88294c54/Forensics_is_fun.pptm
+Download Link: https://challenge-files.picoctf.net/c_wily_courier/d78815176c19ddc85a1388233268d2f4c459fcbbaab197b4a29ebafc88294c54/Forensics_is_fun.pptm
 
 ---
 
@@ -31,8 +30,6 @@ To analyze a macro-enabled PowerPoint file and locate hidden data within its int
 - `wget`
 - `file`
 - `unzip`
-- `cd`
-- `ls`
 - `cat`
 - CyberChef (Base64 decoding)
 
@@ -42,9 +39,6 @@ To analyze a macro-enabled PowerPoint file and locate hidden data within its int
 
 1. Copied the download link from the challenge page.
 2. Opened a terminal in **Linux**.
-
----
-
 3. Downloaded the file using:
 ```bash
 wget https://challenge-files.picoctf.net/c_wily_courier/d78815176c19ddc85a1388233268d2f4c459fcbbaab197b4a29ebafc88294c54/Forensics_is_fun.pptm
@@ -53,35 +47,44 @@ wget https://challenge-files.picoctf.net/c_wily_courier/d78815176c19ddc85a138823
 ```bash
 file Forensics_is_fun.pptm
 ```
+
+<img width="1919" height="1067" alt="Screenshot 2026-02-12 233445" src="https://github.com/user-attachments/assets/07fce99c-923d-4775-8a3f-6aeb697e2265" />
+
 5. Confirmed that the .pptm file is a Microsoft PowerPoint macro-enabled document, which internally uses a ZIP-based structure (Office Open XML format).
 6. Extracted the file contents using:
 ```bash
 unzip Forensics_is_fun.pptm
 ```
-7. Listed the extracted directories and files:
-```bash
-ls
-```
-8. Observed multiple folders including:
+
+<img width="1919" height="1077" alt="Screenshot 2026-02-12 233735" src="https://github.com/user-attachments/assets/6c4b0c74-277a-40da-909c-704ca75593fd" />
+
+7. Observed multiple folders including:
 ```bash
 ppt/
 ```
-9. Navigated into the PowerPoint internal directory structure:
+8. Navigated into the PowerPoint internal directory structure:
 ```bash
 cd ppt/slideMasters/
 ```
-10. Identified a suspicious file named:
+9. Identified a suspicious file named:
 ```bash
 hidden
 ```
-11. Read the contents of the hidden file:
+10. Read the contents of the hidden file:
 ```bash
 cat hidden
 ```
-12. The file contained encoded text.
-13. Based on the structure and character set, recognized the data as Base64-encoded.
-14. Copied the encoded string and opened CyberChef.
-15. Applied the From Base64 decoding operation.
+
+<img width="1919" height="1072" alt="Screenshot 2026-02-12 235721" src="https://github.com/user-attachments/assets/28547292-e4ee-489f-8456-ec5551f8a2f4" />
+
+11. The file contained encoded text.
+12. Based on the structure and character set, recognized the data as Base64-encoded.
+13. Copied the encoded string and opened CyberChef.
+
+<img width="1919" height="969" alt="Screenshot 2026-02-13 192150" src="https://github.com/user-attachments/assets/c7f97a92-dcaa-4f04-ba74-b88eb828b37b" />
+
+14. Applied the From Base64 decoding operation.
+15. The decoded output revealed the flag.
 
 ---
 
