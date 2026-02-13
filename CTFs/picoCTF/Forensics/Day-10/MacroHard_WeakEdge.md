@@ -83,3 +83,9 @@ cat hidden
 14. Copied the encoded string and opened CyberChef.
 15. Applied the From Base64 decoding operation.
 
+---
+
+## Flag (Masked)
+picoCTF{***************}
+
+---
