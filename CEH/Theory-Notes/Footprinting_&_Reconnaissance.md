@@ -166,8 +166,8 @@ Example:
 sherlock ElonMusk
 ```
 This technique is useful for:
-- OSINT investigations  
-- Social engineering assessments  
+- OSINT investigations.  
+- Social engineering assessments.
 - Understanding digital footprint exposure  
 
 ---
