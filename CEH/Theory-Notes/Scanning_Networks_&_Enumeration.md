@@ -298,7 +298,7 @@ Used to extract information from **Remote Procedure Call (RPC)** services.
 Metasploit provides **auxiliary modules** for enumeration purposes.
 
 **Key Points:**
-- Used for scanning and information gathering  
+- Used for scanning and information gathering.  
 - No payload is used  
 - Supports SMB, SNMP, FTP, DNS, and more  
 
