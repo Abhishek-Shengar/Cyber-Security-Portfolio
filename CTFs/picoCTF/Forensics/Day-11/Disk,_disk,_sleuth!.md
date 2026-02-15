@@ -66,6 +66,7 @@ strings dds1-alpine.flag.img | grep picoCTF
 ```
 10. The filtered output revealed the flag within the disk image.
 
+<img width="1919" height="1079" alt="Screenshot 2026-02-15 230306" src="https://github.com/user-attachments/assets/b5c0b53f-4512-4dab-8feb-a27fd24e5dc7" />
 
 ---
 
