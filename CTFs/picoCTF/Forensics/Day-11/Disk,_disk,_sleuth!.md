@@ -73,3 +73,14 @@ strings dds1-alpine.flag.img | grep picoCTF
 ## Flag
 picoCTF{***************}
 
+---
+
+## Summary
+
+This challenge demonstrated **basic disk image forensics using string analysis techniques**.
+
+After decompressing the disk image, I extracted readable strings and applied pattern-based filtering to efficiently locate the flag. This challenge reinforced the importance of inspecting raw disk images and using command-line tools to analyze embedded artifacts within filesystem data.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
