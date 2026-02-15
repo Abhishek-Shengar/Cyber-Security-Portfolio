@@ -47,6 +47,9 @@ wget https://challenge-files.picoctf.net/c_wily_courier/8643b47c3c19e52e891a4684
 ```bash
 file dds1-alpine.flag.img.gz
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-15 230221" src="https://github.com/user-attachments/assets/f68be849-3f30-4397-9f7a-cf9abe4882fa" />
+
 5. Confirmed that the file was a gzip-compressed disk image (not a ZIP file).
 6. Decompressed the image file:
 ```bash
