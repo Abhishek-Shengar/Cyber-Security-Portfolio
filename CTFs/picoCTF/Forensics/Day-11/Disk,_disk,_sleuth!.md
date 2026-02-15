@@ -61,5 +61,11 @@ dds1-alpine.flag.img
 ```bash
 strings dds1-alpine.flag.img | grep picoCTF
 ```
+10. The filtered output revealed the flag within the disk image.
 
+
+---
+
+## Flag
+picoCTF{***************}
 
