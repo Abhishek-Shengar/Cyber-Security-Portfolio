@@ -7,7 +7,7 @@ Irish-Name-Repo 3
 Web Exploitation
 
 ## Difficulty
-Easy
+Medium
 
 ## Description / Problem Statement
 **Author:** Xingyang Pan  
