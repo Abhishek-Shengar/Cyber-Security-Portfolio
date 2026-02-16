@@ -7,7 +7,7 @@ Client-side-again
 Web Exploitation
 
 ## Difficulty
-Medium
+Easy
 
 ## Description / Problem Statement
 **Author:** Danny  
