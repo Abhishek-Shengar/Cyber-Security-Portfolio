@@ -1,7 +1,7 @@
 # Day 11 – picoCTF Forensics Challenge
 
 ## Challenge Name
-Disk, disk, sleuth!
+m00nwalk
 
 ## Category
 Forensics
