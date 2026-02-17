@@ -9,6 +9,10 @@ Forensics
 ## Difficulty
 Medium
 
+---
+
+## Flag
+picoCTF{***************}
 
 ---
 
