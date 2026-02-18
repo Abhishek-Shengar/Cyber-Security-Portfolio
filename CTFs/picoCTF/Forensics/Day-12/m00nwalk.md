@@ -45,13 +45,13 @@ wget https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3c
 ```
 4. Verified the file type:
 ```bash
-wget https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+file message.wav
 ```
 5. Confirmed that the file was a WAV audio file.
 6. Based on the challenge description and observing the signal characteristics, identified that the audio contained an SSTV (Slow Scan Television) broadcast signal.
 7. Used the SSTV decoding tool to extract the transmitted image:
 ```bash
-wget https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+sstv -d message.wav -o flag.png
 ```
 - `-d` specifies the input audio file.
 - `-o` specifies the output image file.
