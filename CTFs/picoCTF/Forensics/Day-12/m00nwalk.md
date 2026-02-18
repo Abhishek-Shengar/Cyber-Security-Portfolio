@@ -1,4 +1,4 @@
-# Day 11 – picoCTF Forensics Challenge
+# Day 12 – picoCTF Forensics Challenge
 
 ## Challenge Name
 m00nwalk
@@ -9,8 +9,61 @@ Forensics
 ## Difficulty
 Medium
 
+## Description / Problem Statement
+**Author:** Joon  
 
-Download Link: https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+Decode this message from the moon.
+
+File: message.wav  
+
+Download Link:  
+https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+
+---
+
+## Objective
+To analyze an audio file and decode hidden image data transmitted using SSTV (Slow Scan Television) encoding.
+
+---
+
+## Tools / Commands Used
+- Linux Terminal
+- `wget`
+- `file`
+- `sstv`
+- File Manager (Thunar)
+
+---
+
+## Methodology
+
+1. Copied the download link from the challenge page.
+2. Opened a terminal in **Linux**.
+3. Downloaded the audio file:
+```bash
+wget https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+```
+4. Verified the file type:
+```bash
+wget https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+```
+5. Confirmed that the file was a WAV audio file.
+6. Based on the challenge description and observing the signal characteristics, identified that the audio contained an SSTV (Slow Scan Television) broadcast signal.
+7. Used the SSTV decoding tool to extract the transmitted image:
+```bash
+wget https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+```
+- `-d` specifies the input audio file.
+- `-o` specifies the output image file.
+8. The decoding process generated a new file:
+```bash
+wget https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+```
+9. Opened the image file:
+```bash
+wget https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+```
+10. Viewed the image and identified the flag displayed within it.
 
 ---
 
@@ -19,5 +72,12 @@ picoCTF{***************}
 
 ---
 
-📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
+## Summary
 
+This challenge demonstrated **audio forensics and SSTV signal decoding**.
+
+The WAV file contained an SSTV-encoded image transmitted as an audio signal. By decoding the signal using an SSTV tool, I was able to reconstruct the hidden image and recover the flag. This challenge highlights how non-textual data, such as images, can be transmitted and concealed within audio signals.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
