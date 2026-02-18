@@ -28,7 +28,6 @@ To analyze an audio file and decode hidden image data transmitted using SSTV (Sl
 
 ## Tools / Commands Used
 - Linux Terminal
-- `wget`
 - `file`
 - `sstv`
 - File Manager (Thunar)
