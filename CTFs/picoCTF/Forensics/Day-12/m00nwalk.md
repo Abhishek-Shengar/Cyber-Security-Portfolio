@@ -57,11 +57,11 @@ sstv -d message.wav -o flag.png
 - `-o` specifies the output image file.
 8. The decoding process generated a new file:
 ```bash
-wget https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+flag.png
 ```
 9. Opened the image file:
 ```bash
-wget https://challenge-files.picoctf.net/c_fickle_tempest/67884a117da864fd93ca3cfc5d8b4d1aae71c84d7f3d2a89c1b5d0b3a19e0a71/message.wav
+thunar flag.png
 ```
 10. Viewed the image and identified the flag displayed within it.
 
