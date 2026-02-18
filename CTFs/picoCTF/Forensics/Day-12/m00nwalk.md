@@ -66,7 +66,12 @@ flag.png
 ```bash
 thunar flag.png
 ```
+
+<img width="1919" height="1077" alt="Screenshot 2026-02-18 210706" src="https://github.com/user-attachments/assets/019bb2e2-639d-43de-b0a3-0d0f541577cd" />
+
 10. Viewed the image and identified the flag displayed within it.
+
+<img width="1919" height="1076" alt="Screenshot 2026-02-18 211013" src="https://github.com/user-attachments/assets/25171831-36ab-48af-89b2-110fc7d6320c" />
 
 ---
 
