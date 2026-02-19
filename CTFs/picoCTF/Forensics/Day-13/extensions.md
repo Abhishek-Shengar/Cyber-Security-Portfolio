@@ -15,8 +15,7 @@ Medium
 This is a really weird text file. Can you find the flag?  
 Get the flag from TXT.
 
-Download Link:  
-https://challenge-files.picoctf.net/c_fickle_tempest/31fe772e6a4c71e867af0b2a93818e06d8f8ebf8af2a9615495d00356ff576da/flag.txt
+Download Link: https://challenge-files.picoctf.net/c_fickle_tempest/31fe772e6a4c71e867af0b2a93818e06d8f8ebf8af2a9615495d00356ff576da/flag.txt
 
 ---
 
@@ -42,3 +41,9 @@ To identify mismatched file extensions and recover hidden data by analyzing the 
 wget https://challenge-files.picoctf.net/c_fickle_tempest/31fe772e6a4c71e867af0b2a93818e06d8f8ebf8af2a9615495d00356ff576da/flag.txt
 ```
 4. Verified the file type:
+```bash
+file flag.txt
+```
+
+
+
