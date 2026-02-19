@@ -46,6 +46,9 @@ file flag.txt
 ```
 5. Although the file extension was .txt, the file command revealed that the actual file type was a PNG image.
 6. Recognized that the file extension had been intentionally misleading.
+
+<img width="1919" height="1077" alt="Screenshot 2026-02-19 233550" src="https://github.com/user-attachments/assets/02d691cf-6912-407b-b63e-fc9069a2f7b5" />
+
 7. Opened the file using an image viewer:
 ```bash
 eog flag.txt
