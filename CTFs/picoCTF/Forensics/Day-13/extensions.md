@@ -44,6 +44,11 @@ wget https://challenge-files.picoctf.net/c_fickle_tempest/31fe772e6a4c71e867af0b
 ```bash
 file flag.txt
 ```
-
-
+5. Although the file extension was .txt, the file command revealed that the actual file type was a PNG image.
+6. Recognized that the file extension had been intentionally misleading.
+7. Opened the file using an image viewer:
+```bash
+eog flag.txt
+```
+8. The image opened successfully and displayed the flag.
 
