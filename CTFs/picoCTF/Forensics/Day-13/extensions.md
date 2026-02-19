@@ -52,3 +52,19 @@ eog flag.txt
 ```
 8. The image opened successfully and displayed the flag.
 
+---
+
+## Flag (Masked)
+picoCTF{***************}
+
+---
+
+## Summary
+
+This challenge demonstrated **file extension spoofing and file signature verification**.
+
+Although the file was named with a `.txt` extension, its actual file signature identified it as a PNG image. By verifying the true file type and opening it with the appropriate viewer, I was able to recover the flag. This challenge highlights the importance of validating file signatures rather than relying solely on file extensions during forensic analysis.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
