@@ -88,7 +88,6 @@ All challenges were solved in a **legal, controlled CTF environment for educatio
 ## Tools Used
 
 - **Linux (Kali Linux)**
-- `file`
 - `strings`
 - `grep`
 - `gzip`
