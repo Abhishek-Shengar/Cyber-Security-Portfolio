@@ -37,7 +37,7 @@ All challenges were solved in a **legal, controlled CTF environment for educatio
 
 ## Skills & Techniques Learned
 
-### 🖼️ Image Steganography & Bit-Level Analysis
+### Image Steganography & Bit-Level Analysis
 - Understanding Most Significant Bit (MSB) manipulation
 - Extracting hidden data from image bit planes
 - Identifying visual artifacts as steganographic indicators
@@ -45,7 +45,7 @@ All challenges were solved in a **legal, controlled CTF environment for educatio
 
 ---
 
-### 📡 Wireless Forensics
+### Wireless Forensics
 - Understanding WPA/WPA2 handshake captures
 - Performing offline dictionary attacks using wordlists
 - Cracking weak wireless passwords
@@ -53,7 +53,7 @@ All challenges were solved in a **legal, controlled CTF environment for educatio
 
 ---
 
-### 📦 Recursive Archive Analysis
+### Recursive Archive Analysis
 - Identifying nested archive structures
 - Extracting layered compressed files
 - Recognizing archive recursion patterns
