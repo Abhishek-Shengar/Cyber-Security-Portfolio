@@ -77,7 +77,7 @@ All challenges were solved in a **legal, controlled CTF environment for educatio
 
 ---
 
-### 🎵 Audio & Signal Forensics
+### Audio & Signal Forensics
 - Identifying SSTV (Slow Scan Television) encoded audio
 - Converting audio signals into images
 - Understanding how non-textual data can be transmitted via sound
