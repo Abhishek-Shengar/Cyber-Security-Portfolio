@@ -61,7 +61,7 @@ All challenges were solved in a **legal, controlled CTF environment for educatio
 
 ---
 
-### 📄 Office Document Forensics
+### Office Document Forensics
 - Understanding that `.pptm` files are ZIP-based (Office Open XML)
 - Inspecting internal directory structures
 - Locating hidden embedded files
@@ -69,7 +69,7 @@ All challenges were solved in a **legal, controlled CTF environment for educatio
 
 ---
 
-### 💽 Disk Image Investigation
+### Disk Image Investigation
 - Decompressing disk images
 - Extracting readable strings from raw images
 - Using pattern-based filtering to locate flags
