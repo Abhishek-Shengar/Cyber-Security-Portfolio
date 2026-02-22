@@ -50,3 +50,15 @@ wget https://challenge-files.picoctf.net/c_fickle_tempest/010f805d3d59e58913240f
 
 ## Flag (Masked)
 picoCTF{***************}
+
+---
+
+## Summary
+
+This challenge demonstrated **basic image metadata and embedded string analysis**.
+
+Although the file appeared to be a normal PNG image, extracting readable strings from the binary content revealed hidden textual data containing the flag. This challenge highlights the importance of inspecting file contents beyond visual appearance and using pattern-based filtering to quickly locate sensitive information.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
