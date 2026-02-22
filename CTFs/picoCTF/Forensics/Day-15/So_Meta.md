@@ -14,8 +14,7 @@ Medium
 
 Find the flag in this picture.
 
-Download Link:  
-https://challenge-files.picoctf.net/c_fickle_tempest/010f805d3d59e58913240f26904349f886a0ee71c205d46185ada895377818af/pico_img.png
+Download Link: https://challenge-files.picoctf.net/c_fickle_tempest/010f805d3d59e58913240f26904349f886a0ee71c205d46185ada895377818af/pico_img.png
 
 ---
 
@@ -37,9 +36,6 @@ To analyze an image file for hidden metadata or embedded readable content and re
 
 1. Copied the download link from the challenge page.
 2. Opened a terminal in **Linux**.
-
----
-
 3. Downloaded the image file:
 
 ```bash
