@@ -41,9 +41,24 @@ To analyze an image file for hidden metadata or embedded readable content and re
 wget https://challenge-files.picoctf.net/c_fickle_tempest/010f805d3d59e58913240f26904349f886a0ee71c205d46185ada895377818af/pico_img.png
 ```
 4. Verified the file type:
+```bash
+file pico_img.png
+```
 5. Confirmed that the file was a PNG image.
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-22 233756" src="https://github.com/user-attachments/assets/9951fd8c-3507-4451-8845-6cc38f2e348c" />
+
 6. Since the challenge hinted at hidden data inside the picture, extracted readable strings from the image:
+```bash
+strings pico_img.png
+```
 7. To efficiently search for the flag pattern, filtered the output using:
+```bash
+strings pico_img.png | grep picoCTF
+```
+
+<img width="1919" height="1078" alt="Screenshot 2026-02-22 233933" src="https://github.com/user-attachments/assets/a1ab2911-bac1-450b-a009-dcf757d4a366" />
+
 8. The filtered output revealed the flag embedded within the image file.
 
 ---
