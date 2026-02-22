@@ -46,4 +46,7 @@ wget https://challenge-files.picoctf.net/c_fickle_tempest/010f805d3d59e58913240f
 7. To efficiently search for the flag pattern, filtered the output using:
 8. The filtered output revealed the flag embedded within the image file.
 
+---
 
+## Flag (Masked)
+picoCTF{***************}
