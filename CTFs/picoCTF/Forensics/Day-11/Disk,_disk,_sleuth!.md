@@ -31,7 +31,6 @@ To analyze a compressed disk image file and locate hidden data using string extr
 - `file`
 - `gzip`
 - `strings`
-- `grep`
 
 ---
 
