@@ -53,10 +53,10 @@ file flag.txt
 ```bash
 eog flag.txt
 ```
-8. The image opened successfully and displayed the flag.
 
 <img width="1919" height="1079" alt="Screenshot 2026-02-19 233811" src="https://github.com/user-attachments/assets/3f594a81-0cf0-47af-8082-a2de7f4a0df4" />
 
+8. The image opened successfully and displayed the flag.
 ---
 
 ## Flag (Masked)
