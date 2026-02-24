@@ -63,9 +63,11 @@ wireshark network-dump.flag.pcap
 <img width="1919" height="1079" alt="Screenshot 2026-02-05 231457" src="https://github.com/user-attachments/assets/a16e1542-440a-4d99-a99c-bcac4e8964d2" />
 
 12. The reconstructed TCP stream displayed the flag with spaces between each character.
-13. Manually removed the spaces to reconstruct the complete flag.
+
 
 <img width="1919" height="1079" alt="Screenshot 2026-02-05 231408" src="https://github.com/user-attachments/assets/e31bcc7e-d67e-4207-85e9-bb9bf7083e62" />
+
+13. Manually removed the spaces to reconstruct the complete flag
 
 ---
 
