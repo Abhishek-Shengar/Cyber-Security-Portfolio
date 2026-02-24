@@ -73,10 +73,9 @@ strings disko-1.dd
 strings disko-1.dd | grep picoCTF
 ```
 
-
 <img width="1919" height="1079" alt="Screenshot 2026-01-29 223408" src="https://github.com/user-attachments/assets/b5628339-689c-4e07-966f-c46d68ce77fc" />
 
-11. The command returned a matching string containing the flag
+11. The command returned a matching string containing the flag.
 ---
 
 ## Flag (Masked)
