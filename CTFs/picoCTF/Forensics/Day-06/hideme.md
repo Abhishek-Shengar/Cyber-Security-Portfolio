@@ -87,10 +87,9 @@ thunar flag.png
 
 16. Double-clicked the image to view it.
 
-
 <img width="1919" height="1079" alt="Screenshot 2026-02-08 215345" src="https://github.com/user-attachments/assets/c72f70fd-d405-4d9c-87a2-9a395bef81d5" />
 
-17. The image displayed text containing the flag
+17. The image displayed text containing the flag.
 
 ---
 
