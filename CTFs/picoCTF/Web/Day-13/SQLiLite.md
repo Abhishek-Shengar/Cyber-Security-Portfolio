@@ -64,10 +64,11 @@ But can you see the flag? It is in plain sight.
 <img width="1919" height="970" alt="Screenshot 2026-01-12 215327" src="https://github.com/user-attachments/assets/20425659-3f4a-40f7-b9d5-817aaa2520cc" />
 
 11. After successful login, used **Ctrl + U** to inspect the page source.
-12. Found the flag embedded directly in the HTML source code.
+
 
 <img width="1915" height="971" alt="Flag" src="https://github.com/user-attachments/assets/b8dfbac9-2689-453d-89a5-cf79d9ecbe4b" />
 
+12. Found the flag embedded directly in the HTML source code
 ---
 
 # Flag
