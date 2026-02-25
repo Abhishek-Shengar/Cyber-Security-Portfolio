@@ -65,10 +65,10 @@ But can you see the flag? It is in plain sight.
 
 11. After successful login, used **Ctrl + U** to inspect the page source.
 
-
 <img width="1915" height="971" alt="Flag" src="https://github.com/user-attachments/assets/b8dfbac9-2689-453d-89a5-cf79d9ecbe4b" />
 
 12. Found the flag embedded directly in the HTML source code
+
 ---
 
 # Flag
