@@ -43,6 +43,9 @@ wget https://challenge-files.picoctf.net/c_fickle_tempest/c0eec6af0f04316e2bdc4a
 ```bash
 file buildings.png
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-26 225711" src="https://github.com/user-attachments/assets/65be0edd-6a6d-4063-b63a-6edcf0b26625" />
+
 5. Confirmed that the file was a PNG image (8-bit/color RGBA).
 6. Based on the challenge name and category, suspected steganographic data hidden within the image.
 7. Used zsteg, a tool designed to detect and extract hidden data from PNG images:
@@ -51,6 +54,9 @@ zsteg buildings.pn
 ```
 8. The tool analyzed various bit planes and color channels.
 9. Identified readable hidden data in one of the extracted outputs.
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-26 231126" src="https://github.com/user-attachments/assets/037a46d0-0fa3-4157-88d3-1c65f411a40e" />
+
 10. Extracted the flag from the revealed hidden text.
 
 ---
