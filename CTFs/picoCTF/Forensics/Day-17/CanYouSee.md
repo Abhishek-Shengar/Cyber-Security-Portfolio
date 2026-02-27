@@ -14,8 +14,7 @@ Easy
 
 How about some hide and seek?
 
-Download Link:  
-https://artifacts.picoctf.net/c_titan/130/unknown.zip
+Download Link: https://artifacts.picoctf.net/c_titan/130/unknown.zip
 
 ---
 
@@ -38,11 +37,7 @@ To analyze a compressed file and recover hidden information from image metadata.
 
 1. Copied the download link from the challenge page.
 2. Opened a terminal in **Linux**.
-
----
-
 3. Downloaded the compressed file:
-
 ```bash
 wget https://artifacts.picoctf.net/c_titan/130/unknown.zip
 ```
