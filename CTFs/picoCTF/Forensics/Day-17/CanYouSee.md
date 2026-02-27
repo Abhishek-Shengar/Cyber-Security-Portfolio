@@ -65,3 +65,13 @@ exiftool ukn_reality.jpg
 picoCTF{***************}
 
 ---
+
+## Summary
+
+This challenge demonstrated **image metadata analysis and Base64 decoding**.
+
+Although the image appeared normal visually, important information was hidden within its metadata. Using `exiftool`, I extracted the embedded metadata and identified a Base64-encoded string. Decoding the string revealed the flag. This challenge highlights the importance of inspecting file metadata during forensic investigations.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
