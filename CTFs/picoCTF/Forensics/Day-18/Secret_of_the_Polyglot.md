@@ -14,5 +14,5 @@ Easy
 
 How about some hide and seek?
 
-Download Link: 
+Download Link: https://artifacts.picoctf.net/c_titan/99/flag2of2-final.pdf
 
