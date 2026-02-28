@@ -18,3 +18,8 @@ Download the suspicious file here.
 Download Link: https://artifacts.picoctf.net/c_titan/99/flag2of2-final.pdf
 
 ---
+
+## Flag (Masked)
+picoCTF{***************}
+
+---
