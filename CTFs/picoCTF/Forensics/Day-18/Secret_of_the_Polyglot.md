@@ -41,24 +41,24 @@ To analyze a suspicious file and extract hidden information by identifying and i
 ```bash
 wget https://artifacts.picoctf.net/c_titan/99/flag2of2-final.pdf
 ```
+4. Verified the file type:
+```bash
+file flag2of2-final.pdf
+```
 5. The `file` command identified the file as a **PDF document**.
-
 6. Opened the PDF file using a PDF viewer and observed that it contained **the second part of the flag**.
-
 7. Based on the challenge hint indicating conflicting file types, suspected the file might be a **polyglot file** (a file valid as multiple formats).
-
 8. Renamed the file extension from `.pdf` to `.jpg`.
-
+```bash
+mv flag2of2-final.pdf flag.jpg
+```
 9. Opened the renamed file using an image viewer.
-
 10. The image displayed **the first part of the flag**.
-
 11. Combined both parts to obtain the complete flag.
 
 ---
 
 ## Flag (Masked)
-
 picoCTF{***************}
 
 ---
@@ -72,4 +72,3 @@ Although the file initially appeared to be a PDF document, it was actually a pol
 ---
 
 📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
-
