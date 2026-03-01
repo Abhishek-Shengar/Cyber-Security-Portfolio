@@ -7,7 +7,7 @@ Secret of the Polyglot
 Forensics
 
 ## Difficulty
-Medium
+Easy
 
 ## Description / Problem Statement
 **Author:** syreal  
@@ -38,11 +38,7 @@ To analyze a suspicious file and extract hidden information by identifying and i
 
 1. Copied the download link from the challenge page.
 2. Opened a terminal in **Linux**.
-
----
-
 3. Downloaded the file:
-
 ```bash
 wget https://artifacts.picoctf.net/c_titan/99/flag2of2-final.pdf
 ```
