@@ -45,8 +45,14 @@ wget https://artifacts.picoctf.net/c_titan/99/flag2of2-final.pdf
 ```bash
 file flag2of2-final.pdf
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-28 224510" src="https://github.com/user-attachments/assets/2e2e8620-0583-4252-8080-77a0795120d3" />
+
 5. The `file` command identified the file as a **PDF document**.
 6. Opened the PDF file using a PDF viewer and observed that it contained **the second part of the flag**.
+
+<img width="1919" height="1073" alt="Screenshot 2026-03-02 223026" src="https://github.com/user-attachments/assets/6e545d1e-a113-41b4-98b0-ab82e5994c33" />
+
 7. Based on the challenge hint indicating conflicting file types, suspected the file might be a **polyglot file** (a file valid as multiple formats).
 8. Renamed the file extension from `.pdf` to `.jpg`.
 ```bash
@@ -54,6 +60,9 @@ mv flag2of2-final.pdf flag.jpg
 ```
 9. Opened the renamed file using an image viewer.
 10. The image displayed **the first part of the flag**.
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-02 222932" src="https://github.com/user-attachments/assets/c04f736e-e3a0-452b-bbb1-3c03acc7e02e" />
+
 11. Combined both parts to obtain the complete flag.
 
 ---
