@@ -44,6 +44,9 @@ wget https://challenge-files.picoctf.net/c_amiable_citadel/85ff7059d0bc98abe4aa0
 ```bash
 file confidential.pdf
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-02 223335" src="https://github.com/user-attachments/assets/de2d324e-a357-4ea2-a829-6f03be32679b" />
+
 5. Confirmed that the file was a PDF document.
 6. Opened the PDF file to inspect its visible content but did not find any readable flag.
 7. Suspected that the flag might be hidden within the document metadata.
@@ -51,6 +54,9 @@ file confidential.pdf
 ```bash
 exiftool confidential.pdf
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-02 224817" src="https://github.com/user-attachments/assets/048b557d-c5d6-4128-8a3e-e273f90d5deb" />
+
 9. Observed that the **Author field** contained an encoded string ending with `=` which suggested **Base64 encoding**.
 10. Copied the encoded string and opened **CyberChef**.
 11. Applied the **From Base64** operation to decode the string.
