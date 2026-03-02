@@ -60,6 +60,9 @@ exiftool confidential.pdf
 9. Observed that the **Author field** contained an encoded string ending with `=` which suggested **Base64 encoding**.
 10. Copied the encoded string and opened **CyberChef**.
 11. Applied the **From Base64** operation to decode the string.
+
+<img width="1919" height="966" alt="Screenshot 2026-03-02 224509" src="https://github.com/user-attachments/assets/82fb7511-b499-4e9b-a6d9-039bd99d707b" />
+
 12. The decoded output revealed the flag.
 
 ---
