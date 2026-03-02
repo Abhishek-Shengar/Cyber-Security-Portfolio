@@ -7,7 +7,7 @@ Riddle Registry
 Forensics
 
 ## Difficulty
-Medium
+Easy
 
 ## Description / Problem Statement
 **Author:** Prince Niyonshuti N.  
