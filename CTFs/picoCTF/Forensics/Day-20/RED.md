@@ -52,5 +52,23 @@ zsteg red.png
 ```
 8. The tool output revealed an encoded string embedded within one of the color channel bit planes.
 9. The extracted string appeared to be Base64-encoded text.
+10. Copied the encoded string and opened **CyberChef**.
+11. Applied the **From Base64** operation to decode the string.
+12. The decoded output revealed the flag.
 
+---
 
+## Flag (Masked)
+picoCTF{***************}
+
+---
+
+## Summary
+
+This challenge demonstrated **PNG steganography detection and Base64 decoding**.
+
+Although the image appeared visually simple, hidden data was embedded within its bit planes. Using `zsteg`, I identified the concealed encoded string and decoded it using Base64 decoding techniques. This challenge reinforces the importance of inspecting image files beyond their visual content when conducting forensic analysis.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
