@@ -44,16 +44,25 @@ wget https://challenge-files.picoctf.net/c_verbal_sleep/831307718b34193b288dde31
 ```bash
 file red.png
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-03 212107" src="https://github.com/user-attachments/assets/fc4cd342-7aef-42a6-9d40-2c968cfa2710" />
+
 5. Confirmed that the file was a PNG image.
 6. Based on the challenge title and category, suspected hidden steganographic data.
 7. Used zsteg to analyze the image for hidden content:
 ```bash
 zsteg red.png
 ```
+
+<img width="1919" height="1078" alt="Screenshot 2026-03-03 212835" src="https://github.com/user-attachments/assets/10d13a5e-42c8-4014-9f4f-9cb640f08c50" />
+
 8. The tool output revealed an encoded string embedded within one of the color channel bit planes.
 9. The extracted string appeared to be Base64-encoded text.
 10. Copied the encoded string and opened **CyberChef**.
 11. Applied the **From Base64** operation to decode the string.
+
+<img width="1919" height="970" alt="Screenshot 2026-03-03 213014" src="https://github.com/user-attachments/assets/3007f375-1b71-4a56-aaf6-3432b4dfad18" />
+
 12. The decoded output revealed the flag.
 
 ---
