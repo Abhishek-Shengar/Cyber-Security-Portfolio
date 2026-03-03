@@ -41,9 +41,15 @@ To analyze a PNG image for hidden steganographic data and recover the concealed 
 wget https://challenge-files.picoctf.net/c_verbal_sleep/831307718b34193b288dde31e557484876fb84978b5818e2627e453a54aa9ba6/red.png
 ```
 4. Verified the file type:
+```bash
+file red.png
+```
 5. Confirmed that the file was a PNG image.
 6. Based on the challenge title and category, suspected hidden steganographic data.
 7. Used zsteg to analyze the image for hidden content:
+```bash
+zsteg red.png
+```
 8. The tool output revealed an encoded string embedded within one of the color channel bit planes.
 9. The extracted string appeared to be Base64-encoded text.
 
