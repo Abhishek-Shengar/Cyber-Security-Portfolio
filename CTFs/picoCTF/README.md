@@ -7,7 +7,6 @@
 - **Day 04:** Minified Code Analysis
 - **Day 05:** JavaScript Bookmarklet & Decryption
 
----
 
 
 
