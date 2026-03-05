@@ -53,4 +53,6 @@ file logs.txt
 ```bash
 strings logs.txt | base64 -d > flag.jpg
 ```
-
+8. The decoded output generated an image file named flag.jpg.
+9. Opened the image and observed encoded text embedded inside the image.
+10. Used OCR to extract the text from the image:
