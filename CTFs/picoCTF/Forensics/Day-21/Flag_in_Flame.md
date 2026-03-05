@@ -1,1 +1,53 @@
+# Day 21 – picoCTF Forensics Challenge
+
+## Challenge Name
+Flag in Flame
+
+## Category
+Forensics
+
+## Difficulty
+Easy
+
+## Description / Problem Statement
+**Author:** Prince Niyonshuti N.
+
+The SOC team discovered a suspiciously large log file after a recent breach. When they opened it, they found an enormous block of encoded text instead of typical logs. Could there be something hidden within?
+
+Download Link:  
+https://challenge-files.picoctf.net/c_amiable_citadel/ade5acd5e8e7082fc52cbbb6b297da484b0656fa4ce51b3b923c9d2c0f4a93f7/logs.txt
+
+---
+
+## Objective
+To analyze encoded log data and extract hidden information through multiple decoding and forensic analysis steps.
+
+---
+
+## Tools / Commands Used
+- Linux Terminal
+- `wget`
+- `file`
+- `strings`
+- `base64`
+- `tesseract`
+- `cat`
+- CyberChef
+
+---
+
+## Methodology
+
+1. Copied the download link from the challenge page.
+2. Opened a terminal in **Linux**.
+
+---
+
+3. Downloaded the log file:
+
+```bash
+wget https://challenge-files.picoctf.net/c_amiable_citadel/ade5acd5e8e7082fc52cbbb6b297da484b0656fa4ce51b3b923c9d2c0f4a93f7/logs.txt
+```
+
+
 
