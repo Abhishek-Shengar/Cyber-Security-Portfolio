@@ -70,3 +70,17 @@ cat output.txt
 
 ---
 
+## Flag (Masked)
+picoCTF{***************}
+
+---
+
+## Summary
+
+This challenge demonstrated **multi-layer data decoding and forensic analysis**.
+
+The log file contained Base64-encoded data which decoded into an image. The image contained encoded text that required OCR extraction using `tesseract`. The extracted text was hexadecimal encoded and decoding it revealed the flag. This challenge highlights how attackers may layer multiple encoding techniques to conceal sensitive information.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
