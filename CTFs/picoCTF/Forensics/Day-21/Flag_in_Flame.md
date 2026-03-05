@@ -60,5 +60,13 @@ strings logs.txt | base64 -d > flag.jpg
 tesseract flag.jpg output
 ```
 11. This generated a file named: output.txt
+12. Read the extracted text:
+```bash
+cat output.txt
+```
+13. Observed that the extracted text was hexadecimal encoded.
+14. Copied the hex string and decoded it using CyberChef with the From Hex operation.
+15. The decoded output revealed the flag.
 
+---
 
