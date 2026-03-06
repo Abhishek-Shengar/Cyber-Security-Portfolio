@@ -47,6 +47,9 @@ wget https://challenge-files.picoctf.net/c_amiable_citadel/ade5acd5e8e7082fc52cb
 ```bash
 file logs.txt
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-05 232712" src="https://github.com/user-attachments/assets/5bbcc2da-e8a9-4e25-bb01-8e5b42772f7a" />
+
 5. Confirmed that the file contained large encoded text data.
 6. Inspected the content and identified that the data appeared to be Base64 encoded.
 7. Decoded the Base64 data and redirected the output into an image file:
