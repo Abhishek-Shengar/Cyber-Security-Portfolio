@@ -75,8 +75,12 @@ cat output.txt
 
 13. Observed that the extracted text was hexadecimal encoded.
 14. Copied the hex string and decoded it using CyberChef with the From Hex operation.
+
+<img width="1919" height="964" alt="Screenshot 2026-03-05 233838" src="https://github.com/user-attachments/assets/e5654c58-3b16-48aa-aa3b-486ef9201f2b" />
+
 15. The decoded output revealed the flag.
 
+---
 ---
 
 ## Flag (Masked)
