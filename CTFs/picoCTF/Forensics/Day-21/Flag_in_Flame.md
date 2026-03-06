@@ -56,6 +56,9 @@ file logs.txt
 ```bash
 strings logs.txt | base64 -d > flag.jpg
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-05 233232" src="https://github.com/user-attachments/assets/886d5fab-5e1e-4b9b-8999-c2aa4857bc42" />
+
 8. The decoded output generated an image file named flag.jpg.
 9. Opened the image and observed encoded text embedded inside the image.
 10. Used OCR to extract the text from the image:
