@@ -81,7 +81,6 @@ cat output.txt
 15. The decoded output revealed the flag.
 
 ---
----
 
 ## Flag (Masked)
 picoCTF{***************}
