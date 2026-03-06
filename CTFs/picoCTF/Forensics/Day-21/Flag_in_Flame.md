@@ -70,6 +70,9 @@ tesseract flag.jpg output
 ```bash
 cat output.txt
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-05 234114" src="https://github.com/user-attachments/assets/8cf6c087-b5a7-4f48-b4ca-4430e19686ae" />
+
 13. Observed that the extracted text was hexadecimal encoded.
 14. Copied the hex string and decoded it using CyberChef with the From Hex operation.
 15. The decoded output revealed the flag.
