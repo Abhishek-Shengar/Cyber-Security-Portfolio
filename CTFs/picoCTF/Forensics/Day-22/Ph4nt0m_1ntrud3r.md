@@ -50,9 +50,15 @@ file myNetworkTraffic.pcap
 <img width="1919" height="1079" alt="Screenshot 2026-03-07 093731" src="https://github.com/user-attachments/assets/16b7162f-c6bd-489b-a631-af4548081ce5" />
 
 5. Confirmed that the file was a packet capture (PCAP) file.
-
+6. Opened the capture file using Wireshark:
+```bash
+wireshark myNetworkTraffic.pcap
+```
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-07 093817" src="https://github.com/user-attachments/assets/7496ea53-55dd-49fe-90d0-ed67e7f52cbe" />
+
+7. Observed the network packets and sorted them based on time as hinted in the challenge.
+8. Inspected the packet contents and analyzed the TCP payload data.
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-07 095516" src="https://github.com/user-attachments/assets/b61aae11-2d83-4066-a588-d2f5f0d856a9" />
 
