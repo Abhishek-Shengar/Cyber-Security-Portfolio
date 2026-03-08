@@ -16,8 +16,7 @@ A digital ghost has breached my defenses, and my sensitive data has been stolen!
 
 To solve this challenge, analyze the provided PCAP file and track down the attack method by examining the network traffic.
 
-Download Link:  
-https://challenge-files.picoctf.net/c_verbal_sleep/a16868557f2510da0f9614e00e69950868489749884fd7db5a3247937eabe7bc/myNetworkTraffic.pcap
+Download Link: https://challenge-files.picoctf.net/c_verbal_sleep/a16868557f2510da0f9614e00e69950868489749884fd7db5a3247937eabe7bc/myNetworkTraffic.pcap
 
 ---
 
@@ -38,13 +37,8 @@ To analyze network traffic in a PCAP file and reconstruct encoded data transmitt
 ## Methodology
 
 1. Copied the download link from the challenge page.
-
 2. Opened a terminal in **Linux**.
-
----
-
 3. Downloaded the PCAP file:
-
 ```bash
 wget https://challenge-files.picoctf.net/c_verbal_sleep/a16868557f2510da0f9614e00e69950868489749884fd7db5a3247937eabe7bc/myNetworkTraffic.pcap
 ```
