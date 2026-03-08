@@ -42,7 +42,11 @@ To analyze network traffic in a PCAP file and reconstruct encoded data transmitt
 ```bash
 wget https://challenge-files.picoctf.net/c_verbal_sleep/a16868557f2510da0f9614e00e69950868489749884fd7db5a3247937eabe7bc/myNetworkTraffic.pcap
 ```
-
+4. Verified the file type:
+```bash
+file myNetworkTraffic.pcap
+```
+5. Confirmed that the file was a packet capture (PCAP) file.
 <img width="1919" height="1079" alt="Screenshot 2026-03-07 093731" src="https://github.com/user-attachments/assets/16b7162f-c6bd-489b-a631-af4548081ce5" />
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-07 093817" src="https://github.com/user-attachments/assets/7496ea53-55dd-49fe-90d0-ed67e7f52cbe" />
