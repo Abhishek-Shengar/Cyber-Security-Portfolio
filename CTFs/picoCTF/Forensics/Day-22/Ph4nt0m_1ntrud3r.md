@@ -68,9 +68,12 @@ wireshark myNetworkTraffic.pcap
 <img width="1910" height="872" alt="Screenshot 2026-03-08 233615" src="https://github.com/user-attachments/assets/e57450ce-098f-4045-8507-0f945f4e4be8" />
 
 11. Shown the encrypted data.
-11. Copied the encoded Base64 segments.
+12. Copied the encoded Base64 segments.
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-07 100850" src="https://github.com/user-attachments/assets/1cba37be-a100-472d-b645-e697d2b40a18" />
+
+13. Opened CyberChef and pasted the encoded data.
+14. Opened CyberChef and pasted the encoded data.
 
 <img width="1919" height="966" alt="Screenshot 2026-03-07 100551" src="https://github.com/user-attachments/assets/0ab37644-a6c7-4795-a4a2-2d8209f50587" />
 
