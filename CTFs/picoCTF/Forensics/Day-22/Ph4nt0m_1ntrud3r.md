@@ -84,7 +84,6 @@ wireshark myNetworkTraffic.pcap
 ---
 
 ## Flag (Masked)
-
 picoCTF{***************}
 
 ---
