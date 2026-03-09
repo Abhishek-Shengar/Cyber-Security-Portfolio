@@ -73,7 +73,13 @@ wireshark myNetworkTraffic.pcap
 <img width="1919" height="1079" alt="Screenshot 2026-03-07 100850" src="https://github.com/user-attachments/assets/1cba37be-a100-472d-b645-e697d2b40a18" />
 
 13. Opened CyberChef and pasted the encoded data.
-14. Opened CyberChef and pasted the encoded data.
+14. Applied the From Base64 operation to decode the string.
+15. The decoded output revealed a portion of the flag.
+16. Continued analyzing subsequent packets containing Base64 fragments.
 
 <img width="1919" height="966" alt="Screenshot 2026-03-07 100551" src="https://github.com/user-attachments/assets/0ab37644-a6c7-4795-a4a2-2d8209f50587" />
+
+17. Decoded each fragment and reconstructed the full flag.
+---
+
 
