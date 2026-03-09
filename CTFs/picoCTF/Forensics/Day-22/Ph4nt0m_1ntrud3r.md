@@ -80,6 +80,21 @@ wireshark myNetworkTraffic.pcap
 <img width="1919" height="966" alt="Screenshot 2026-03-07 100551" src="https://github.com/user-attachments/assets/0ab37644-a6c7-4795-a4a2-2d8209f50587" />
 
 17. Decoded each fragment and reconstructed the full flag.
+
 ---
 
+## Flag (Masked)
 
+picoCTF{***************}
+
+---
+
+## Summary
+
+This challenge demonstrated **network traffic forensics and encoded payload reconstruction**.
+
+By analyzing a PCAP file using Wireshark, I identified Base64 encoded data embedded within TCP payloads. After extracting and decoding the encoded fragments, I reconstructed the complete flag. This challenge highlights how attackers may transmit encoded data over network traffic and the importance of packet inspection during forensic investigations.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
