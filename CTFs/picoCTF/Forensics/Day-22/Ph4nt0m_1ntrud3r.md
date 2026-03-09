@@ -63,7 +63,7 @@ wireshark myNetworkTraffic.pcap
 <img width="1919" height="1079" alt="Screenshot 2026-03-07 095516" src="https://github.com/user-attachments/assets/b61aae11-2d83-4066-a588-d2f5f0d856a9" />
 
 9. Identified several packets containing strings that resembled Base64 encoded data.
-10. Right-clicked the packet and inspected the TCP payload / Packet Bytes section.
+10. Right-clicked the packet and clicked on Show Packet Bytes... then inspected the TCP payload / Packet Bytes section.
 
 <img width="1910" height="872" alt="Screenshot 2026-03-08 233615" src="https://github.com/user-attachments/assets/e57450ce-098f-4045-8507-0f945f4e4be8" />
 
