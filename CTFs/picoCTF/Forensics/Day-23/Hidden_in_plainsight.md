@@ -35,10 +35,14 @@ To analyze a JPEG image and investigate hidden data embedded within the file.
 1. Copied the download link from the challenge page.
 2. Opened a terminal in **Linux**.
 3. Downloaded the image file:
-
 ```bash
 wget https://challenge-files.picoctf.net/c_amiable_citadel/0e679342e0fe04fa2efa860dda0923cba52108031ac4e1ab519df850c2764b5c/img.jpg
 ```
+4. Checked the file type using the file command:
+```bash
+file img.jpg
+```
+
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-10 225932" src="https://github.com/user-attachments/assets/b0159ead-0068-4d20-a647-294d601d254a" />
 
