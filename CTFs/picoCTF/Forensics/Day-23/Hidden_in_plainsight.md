@@ -9,6 +9,15 @@ Forensics
 ## Difficulty
 Easy
 
+## Description / Problem Statement
+**Author:** Yahaya Meddy  
+
+You’re given a seemingly ordinary JPG image. Something is tucked away out of sight inside the file. Your task is to discover the hidden payload and extract the flag.
+
+Download Link:  
+https://challenge-files.picoctf.net/c_amiable_citadel/0e679342e0fe04fa2efa860dda0923cba52108031ac4e1ab519df850c2764b5c/img.jpg
+
+---
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-10 225932" src="https://github.com/user-attachments/assets/b0159ead-0068-4d20-a647-294d601d254a" />
 
