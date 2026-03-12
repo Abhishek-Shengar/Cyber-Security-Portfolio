@@ -42,7 +42,7 @@ wget https://challenge-files.picoctf.net/c_amiable_citadel/0e679342e0fe04fa2efa8
 ```bash
 file img.jpg
 ```
-
+5. Confirmed that the file was a JPEG image file.
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-10 225932" src="https://github.com/user-attachments/assets/b0159ead-0068-4d20-a647-294d601d254a" />
 
