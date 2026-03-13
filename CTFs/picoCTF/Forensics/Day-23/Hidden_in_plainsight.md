@@ -58,13 +58,17 @@ nano flagclue.txt
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-10 231311" src="https://github.com/user-attachments/assets/78d46527-4871-463b-a564-ad411dae4bba" />
 
-<img width="1919" height="1079" alt="Screenshot 2026-03-10 233716" src="https://github.com/user-attachments/assets/945511f5-0826-43a0-87af-489013dd344a" />
-
-9. Decoded the encrypted message with command:
+9. Pasted the copied encoded data into the file and saved it (Ctrl + O, press Enter) and exited the editor (Ctrl + X).
+10. Decoded the encrypted message with command:
 ```bash
 base64 -d flgclue.txt
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-10 233716" src="https://github.com/user-attachments/assets/945511f5-0826-43a0-87af-489013dd344a" />
+
+
 <img width="1919" height="1077" alt="Screenshot 2026-03-10 235540" src="https://github.com/user-attachments/assets/aa0b2a4e-8bd9-47ee-900f-ee09b15d9c36" />
+
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-10 231530" src="https://github.com/user-attachments/assets/443756e5-e077-4273-ba86-9fb4d9614542" />
 
