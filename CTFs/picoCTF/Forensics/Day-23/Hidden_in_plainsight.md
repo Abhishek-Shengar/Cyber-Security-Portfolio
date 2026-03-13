@@ -84,3 +84,6 @@ base64 -d flagclue2.txt
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-10 234245" src="https://github.com/user-attachments/assets/1ea7dcff-5554-42b8-be34-873048e475dc" />
 
+15. The decoded output revealed the flag.
+
+
