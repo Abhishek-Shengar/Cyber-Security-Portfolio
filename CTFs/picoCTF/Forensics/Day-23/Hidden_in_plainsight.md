@@ -59,13 +59,18 @@ nano flagclue.txt
 <img width="1919" height="1079" alt="Screenshot 2026-03-10 231311" src="https://github.com/user-attachments/assets/78d46527-4871-463b-a564-ad411dae4bba" />
 
 9. Pasted the copied encoded data into the file and saved it (Ctrl + O, press Enter) and exited the editor (Ctrl + X).
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-10 233716" src="https://github.com/user-attachments/assets/945511f5-0826-43a0-87af-489013dd344a" />
+
 10. Decoded the encrypted message with command:
 ```bash
 base64 -d flgclue.txt
 ```
-
-<img width="1919" height="1079" alt="Screenshot 2026-03-10 233716" src="https://github.com/user-attachments/assets/945511f5-0826-43a0-87af-489013dd344a" />
-
+11. The decoded output revealed another encoded string associated with steghide decoded text.
+12. Copied this newly revealed encoded string and saved it into another file:
+```bash
+nano flagclue2.txt
+```
 
 <img width="1919" height="1077" alt="Screenshot 2026-03-10 235540" src="https://github.com/user-attachments/assets/aa0b2a4e-8bd9-47ee-900f-ee09b15d9c36" />
 
