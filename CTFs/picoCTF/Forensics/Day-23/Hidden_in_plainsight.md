@@ -71,6 +71,11 @@ base64 -d flgclue.txt
 ```bash
 nano flagclue2.txt
 ```
+13. Pasted the encoded data, saved the file (Ctrl + O, Enter) and exited (Ctrl + X).
+14. Decoded the second encoded string:
+```bash
+base64 -d flagclue2.txt
+```
 
 <img width="1919" height="1077" alt="Screenshot 2026-03-10 235540" src="https://github.com/user-attachments/assets/aa0b2a4e-8bd9-47ee-900f-ee09b15d9c36" />
 
