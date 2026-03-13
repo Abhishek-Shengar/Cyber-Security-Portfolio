@@ -46,12 +46,12 @@ file img.jpg
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-10 225932" src="https://github.com/user-attachments/assets/b0159ead-0068-4d20-a647-294d601d254a" />
 
-6. Used exiftool to analyze the file.
+6. Since the challenge suggested hidden data inside the image, examined the image metadata using `exiftool`:
 ```bash
 exiftool img.jpg
 ```
-7. Found base64 encrypted data.
-8. With the nano command stored in flagclue.txt file.
+7. Observed a Base64 encoded string in the Comment metadata field.
+8. Copied the encoded data and saved it into a text file:
 ```bash
 nano flagclue.txt
 ```
