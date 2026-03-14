@@ -79,12 +79,23 @@ base64 -d flagclue2.txt
 
 <img width="1919" height="1077" alt="Screenshot 2026-03-10 235540" src="https://github.com/user-attachments/assets/aa0b2a4e-8bd9-47ee-900f-ee09b15d9c36" />
 
+15. The decoded output revealed a **passphrase** for extracting hidden data embedded inside the image.
+16. Suspected that the image might contain steganographically hidden data.
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-10 231530" src="https://github.com/user-attachments/assets/443756e5-e077-4273-ba86-9fb4d9614542" />
 
+17. Used the `steghide` tool to extract the hidden content from the image:
+```bash
+steghide extract -sf img.jpg
+```
+18. When prompted, entered the previously decoded passphrase.
+
 <img width="1919" height="1079" alt="Screenshot 2026-03-10 234245" src="https://github.com/user-attachments/assets/1ea7dcff-5554-42b8-be34-873048e475dc" />
 
-15. The decoded output revealed the flag.
+
+
+
+
 
 ---
 
