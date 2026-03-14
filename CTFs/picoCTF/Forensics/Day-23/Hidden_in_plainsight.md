@@ -99,3 +99,15 @@ steghide extract -sf img.jpg
 picoCTF{***************}
 
 ---
+
+---
+
+## Summary
+
+This challenge demonstrated **image metadata analysis, layered Base64 decoding, and steganography extraction**.
+
+Although the image initially appeared ordinary, hidden information was stored within its metadata. By analyzing the metadata with `exiftool`, I discovered Base64 encoded strings that required multiple decoding steps. The decoded output revealed a passphrase, which was then used with `steghide` to extract hidden data embedded inside the image. This challenge highlights how attackers may combine metadata concealment and steganography to hide sensitive information.
+
+---
+
+
