@@ -2,8 +2,6 @@
 *CEH – Ethical Hacking Notes*
 
 ---
----
----
 
 ## Introduction
 
