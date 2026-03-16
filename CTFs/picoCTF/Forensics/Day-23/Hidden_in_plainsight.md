@@ -104,8 +104,6 @@ picoCTF{***************}
 
 ---
 
----
-
 ## Summary
 
 This challenge demonstrated **image metadata analysis, layered Base64 decoding, and steganography extraction**.
@@ -115,9 +113,3 @@ Although the image initially appeared ordinary, hidden information was stored wi
 ---
 
 📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
-
-
-
-
-
-
