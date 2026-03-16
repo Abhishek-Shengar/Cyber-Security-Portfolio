@@ -328,3 +328,7 @@ Information obtained during enumeration is used to:
 
 Network scanning and system hacking concepts form the foundation of vulnerability assessment and penetration testing.  
 Understanding scanning techniques, OSI layers, and exploitation components helps security professionals identify risks before attackers can exploit them.
+
+
+
+
