@@ -75,13 +75,16 @@ nano flagclue2.txt
 <img width="1919" height="1076" alt="Screenshot 2026-03-14 230241" src="https://github.com/user-attachments/assets/c83fff71-fddb-47d7-b063-8118ad4c2239" />
 
 13. Pasted the encoded data, saved the file (Ctrl + O, Enter) and exited (Ctrl + X).
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-10 231530" src="https://github.com/user-attachments/assets/443756e5-e077-4273-ba86-9fb4d9614542" />
+
 14. Decoded the second encoded string:
 ```bash
 base64 -d flagclue2.txt
 ```
 15. The decoded output revealed a **passphrase** for extracting hidden data embedded inside the image.
 
-<img width="1919" height="1079" alt="Screenshot 2026-03-10 231530" src="https://github.com/user-attachments/assets/443756e5-e077-4273-ba86-9fb4d9614542" />
+<img width="1919" height="1078" alt="Screenshot 2026-03-14 230323" src="https://github.com/user-attachments/assets/c867a2c1-b627-4d4b-9f44-61c4b54c8c8f" />
 
 16. Suspected that the image might contain steganographically hidden data.
 17. Used the `steghide` tool to extract the hidden content from the image:
