@@ -41,5 +41,10 @@ To analyze image metadata and recover hidden encoded information.
 ```bash
 wget https://challenge-files.picoctf.net/c_wily_courier/76e95e3e6ee69b4f82b3cea25051f5a9a5918b57809a1f90b29b06b776c73bc7/cat.jpg
 ```
+4. Verified the file type:
+```bash
+file cat.jpg
+```
+
 
 
