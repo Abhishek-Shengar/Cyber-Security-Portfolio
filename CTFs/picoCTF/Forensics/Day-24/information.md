@@ -46,5 +46,9 @@ wget https://challenge-files.picoctf.net/c_wily_courier/76e95e3e6ee69b4f82b3cea2
 file cat.jpg
 ```
 
+<img width="1919" height="1079" alt="Screenshot 2026-03-17 233540" src="https://github.com/user-attachments/assets/92d21546-f84a-4d08-b72e-f1f3b0ecd690" />
+
+
+
 
 
