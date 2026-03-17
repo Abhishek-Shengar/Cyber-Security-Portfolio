@@ -14,8 +14,7 @@ Easy
 
 Files can always be changed in a secret way. Can you find the flag?
 
-Download Link:  
-https://challenge-files.picoctf.net/c_wily_courier/76e95e3e6ee69b4f82b3cea25051f5a9a5918b57809a1f90b29b06b776c73bc7/cat.jpg
+Download Link: https://challenge-files.picoctf.net/c_wily_courier/76e95e3e6ee69b4f82b3cea25051f5a9a5918b57809a1f90b29b06b776c73bc7/cat.jpg
 
 ---
 
@@ -38,11 +37,7 @@ To analyze image metadata and recover hidden encoded information.
 
 1. Copied the download link from the challenge page.
 2. Opened a terminal in **Linux**.
-
----
-
 3. Downloaded the image file:
-
 ```bash
 wget https://challenge-files.picoctf.net/c_wily_courier/76e95e3e6ee69b4f82b3cea25051f5a9a5918b57809a1f90b29b06b776c73bc7/cat.jpg
 ```
