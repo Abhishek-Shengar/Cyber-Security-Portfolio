@@ -51,5 +51,9 @@ file cat.jpg
 5. Confirmed that the file was a JPEG image file.
 6. Suspected hidden data within the image metadata.
 7. Extracted metadata using:
+```bash
+exiftool cat.jpg
+```
+
 
 
