@@ -48,7 +48,8 @@ file cat.jpg
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-17 233540" src="https://github.com/user-attachments/assets/92d21546-f84a-4d08-b72e-f1f3b0ecd690" />
 
-
-
+5. Confirmed that the file was a JPEG image file.
+6. Suspected hidden data within the image metadata.
+7. Extracted metadata using:
 
 
