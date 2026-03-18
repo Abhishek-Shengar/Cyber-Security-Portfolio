@@ -73,5 +73,8 @@ nano flagclue.txt
 ```bash
 base64 -d flagclue.txt
 ```
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-17 234520" src="https://github.com/user-attachments/assets/6b657f23-79de-4729-8455-42d11657c804" />
+
 12. The decoded output revealed the flag.
 
