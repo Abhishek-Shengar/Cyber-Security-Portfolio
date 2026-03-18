@@ -55,5 +55,17 @@ file cat.jpg
 exiftool cat.jpg
 ```
 
+<img width="1919" height="1079" alt="Screenshot 2026-03-17 233732" src="https://github.com/user-attachments/assets/48d7dd4e-f987-414a-af4f-1dea99382f7d" />
 
+8. Observed a Base64 encoded string in the License field.
+9. Saved the encoded data into a file:
+```bash
+nano flagclue.txt
+```
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-17 234052" src="https://github.com/user-attachments/assets/eb850bc7-5e03-4b58-ae47-c667ae9cfac2" />
+
+10. Pasted the encoded string, saved the file (Ctrl + O, Enter), and exited (Ctrl + X).
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-17 233842" src="https://github.com/user-attachments/assets/c3c42f57-81fd-42f8-b5e2-f7b2f498e22e" />
 
