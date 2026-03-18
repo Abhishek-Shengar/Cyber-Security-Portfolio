@@ -50,14 +50,14 @@ All challenges were solved in a **legal and controlled CTF environment for educa
 
 ---
 
-### 🌐 Network Forensics (PCAP Analysis)
+### Network Forensics (PCAP Analysis)
 - Analyzing packet capture files using Wireshark
 - Inspecting TCP payloads for hidden data
 - Reconstructing fragmented encoded data across packets
 
 ---
 
-### 🔍 Data Extraction & Reconstruction
+### Data Extraction & Reconstruction
 - Identifying fragmented or layered data
 - Reassembling encoded segments into complete information
 - Understanding attacker techniques for hiding data across multiple steps
