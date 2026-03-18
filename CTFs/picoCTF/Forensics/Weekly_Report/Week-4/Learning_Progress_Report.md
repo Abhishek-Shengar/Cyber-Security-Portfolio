@@ -28,14 +28,14 @@ All challenges were solved in a **legal and controlled CTF environment for educa
 
 ## Skills & Techniques Learned
 
-### 🧾 Metadata Forensics
+### Metadata Forensics
 - Extracting metadata using `exiftool`
 - Identifying hidden data in fields like **Author, Comment, License**
 - Recognizing encoded data stored in metadata
 
 ---
 
-### 🔐 Multi-layer Encoding & Decoding
+### Multi-layer Encoding & Decoding
 - Handling multiple layers of encoding:
   - Base64 → Image → OCR → Hex
 - Identifying encoding patterns based on structure and character sets
@@ -43,7 +43,7 @@ All challenges were solved in a **legal and controlled CTF environment for educa
 
 ---
 
-### 🖼️ Image Steganography
+### Image Steganography
 - Detecting hidden data in PNG images using `zsteg`
 - Extracting embedded content using `steghide`
 - Understanding how passphrases are used to protect hidden data
