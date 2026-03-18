@@ -94,3 +94,5 @@ Although the image appeared normal, hidden information was embedded within its m
 ---
 
 📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
+
+
