@@ -78,3 +78,19 @@ base64 -d flagclue.txt
 
 12. The decoded output revealed the flag.
 
+---
+
+## Flag (Masked)
+picoCTF{***************}
+
+---
+
+## Summary
+
+This challenge demonstrated **image metadata analysis and Base64 decoding**.
+
+Although the image appeared normal, hidden information was embedded within its metadata. By extracting metadata using `exiftool`, I discovered a Base64 encoded string in the License field. Decoding the string revealed the flag. This challenge highlights the importance of examining metadata when performing forensic analysis on files.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
