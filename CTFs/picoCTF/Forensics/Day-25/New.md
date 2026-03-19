@@ -3,3 +3,8 @@
 ## Challenge Name
 information
 
+## Category
+Forensics
+
+## Difficulty
+Easy
