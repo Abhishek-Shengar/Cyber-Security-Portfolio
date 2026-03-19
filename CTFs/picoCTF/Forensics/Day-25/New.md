@@ -18,3 +18,7 @@ Download Link:
 
 
 
+---
+
+## Flag (Masked)
+picoCTF{***************}
