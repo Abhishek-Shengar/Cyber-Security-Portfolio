@@ -57,10 +57,16 @@ thunar garden.jpg
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-20 233635" src="https://github.com/user-attachments/assets/248c3f92-194d-4882-9994-13f116ea2f2e" />
 
+7. No visible flag or hidden text was observed in the image.
+8. Based on the challenge hint (hex editor), inferred that hidden data might exist in the file’s raw content.
+9. Instead of manually inspecting with a hex editor, used a more efficient approach to extract readable strings:
+```bash
+strings garden.jpg | grep pico
+```
 
+<img width="1919" height="1075" alt="Screenshot 2026-03-20 233713" src="https://github.com/user-attachments/assets/f7832fb8-9845-4067-9c48-0213409bc5cd" />
 
-
-
+10. The command directly revealed the flag embedded within the file.
 
 ---
 
