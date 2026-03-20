@@ -15,8 +15,7 @@ Easy
 This file contains more than it seems.  
 Get the flag from garden.jpg.
 
-Download Link:  
-https://challenge-files.picoctf.net/c_fickle_tempest/6013221da747114c37db29c554381dbe4bb4e746cf6bd880f9c3b5d0b495a823/garden.jpg
+Download Link: https://challenge-files.picoctf.net/c_fickle_tempest/6013221da747114c37db29c554381dbe4bb4e746cf6bd880f9c3b5d0b495a823/garden.jpg
 
 ---
 
@@ -42,6 +41,10 @@ To analyze a JPEG file and extract hidden textual data using efficient forensic 
 3. Downloaded the image file:
 ```bash
 wget https://challenge-files.picoctf.net/c_fickle_tempest/6013221da747114c37db29c554381dbe4bb4e746cf6bd880f9c3b5d0b495a823/garden.jpg
+```
+4. Verified the file type:
+```bash
+file garden.jpg
 ```
 
 ---
