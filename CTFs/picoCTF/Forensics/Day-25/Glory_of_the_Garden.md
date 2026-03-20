@@ -74,3 +74,13 @@ strings garden.jpg | grep pico
 picoCTF{***************}
 
 ---
+
+## Summary
+
+This challenge demonstrated **efficient data extraction from binary files using string analysis**.
+
+Although the hint suggested using a hex editor, I used the `strings` command combined with `grep` to quickly locate readable text within the file. This approach allowed me to efficiently extract the embedded flag without manually analyzing hexadecimal data. The challenge highlights how simple command-line tools can be highly effective in forensic investigations.
+
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
