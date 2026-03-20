@@ -1,4 +1,4 @@
-<img width="1919" height="1079" alt="Screenshot 2026-03-20 233237" src="https://github.com/user-attachments/assets/8b7f0380-4a83-448d-aea8-300056ca6adb" /># Day 25 – picoCTF Forensics Challenge
+# Day 25 – picoCTF Forensics Challenge
 
 ## Challenge Name
 Glory of the Garden
