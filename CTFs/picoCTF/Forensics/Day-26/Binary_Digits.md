@@ -49,10 +49,19 @@ file digits.bin
 
 5. Confirmed that the file contained ASCII text data.
 6. Viewed the file contents:
+```bash
+cat digits.bin
+```
+
+<img width="1918" height="1068" alt="Screenshot 2026-03-21 225921" src="https://github.com/user-attachments/assets/ddda839b-de13-4796-8000-0fdae4c7afe9" />
+
 7. Observed that the file contained a long sequence of binary digits (0s and 1s).
 8. Copied the binary data and opened CyberChef.
 9. Applied the From Binary operation to convert the binary data into raw bytes.
 10. Used the Magic function in CyberChef to automatically interpret the output format.
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-21 232102" src="https://github.com/user-attachments/assets/9e4bf491-0dac-468c-bd81-2a8b5d59db9f" />
+
 11. The decoded output rendered an image containing the flag.
 
 
