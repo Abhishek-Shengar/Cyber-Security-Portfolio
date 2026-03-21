@@ -45,7 +45,7 @@ wget https://challenge-files.picoctf.net/c_plain_mesa/5da9b14e68244128d275e45ba3
 file digits.bin
 ```
 
-
+<img width="1919" height="1079" alt="Screenshot 2026-03-21 225450" src="https://github.com/user-attachments/assets/2caa82dc-77a2-4255-b0b5-2574dbe392c5" />
 
 5. Confirmed that the file contained ASCII text data.
 6. Viewed the file contents:
