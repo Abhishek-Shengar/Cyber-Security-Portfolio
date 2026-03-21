@@ -40,3 +40,24 @@ To analyze binary data stored in a text file and convert it into meaningful info
 ```bash
 wget https://challenge-files.picoctf.net/c_plain_mesa/5da9b14e68244128d275e45ba304b51dbd45554b4eb25ef68c74b4a7579c6626/digits.bin
 ```
+4. Verified the file type:
+```bash
+file digits.bin
+```
+
+
+
+5. Confirmed that the file contained ASCII text data.
+6. Viewed the file contents:
+7. Observed that the file contained a long sequence of binary digits (0s and 1s).
+8. Copied the binary data and opened CyberChef.
+9. Applied the From Binary operation to convert the binary data into raw bytes.
+10. Used the Magic function in CyberChef to automatically interpret the output format.
+11. The decoded output rendered an image containing the flag.
+
+
+
+
+
+
+
