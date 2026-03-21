@@ -64,9 +64,19 @@ cat digits.bin
 
 11. The decoded output rendered an image containing the flag.
 
+---
 
+## Flag (Masked)
+picoCTF{***************}
 
+---
 
+## Summary
 
+This challenge demonstrated **binary data decoding and data format reconstruction**.
 
+Although the file appeared to contain only binary digits, converting the data using the From Binary operation revealed underlying raw data. Using CyberChef’s Magic feature, the data was interpreted as an image, which contained the flag. This challenge highlights how encoded binary data can represent structured formats such as images.
 
+---
+
+📌 *All activities were performed in a legal and controlled CTF environment for educational purposes only.*
