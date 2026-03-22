@@ -55,13 +55,11 @@ file whitepages.txt
 
 8. Identified that different types of whitespace were being used to encode binary data.
 9. Replaced one type of whitespace character with `0`.
-
-
-
 10. Then replaced another type with `1` using a text editor.
-
-
 11. This conversion resulted in a sequence of **binary digits (0s and 1s)**.
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-22 193939" src="https://github.com/user-attachments/assets/831708db-cce4-4689-a6d5-6100cfda148d" />
+
 12. Copied the binary data and opened **CyberChef**.
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-22 194325" src="https://github.com/user-attachments/assets/32ba60e9-8543-4c9e-a1e9-b2a76db34483" />
