@@ -54,11 +54,23 @@ file whitepages.txt
 <img width="1919" height="1078" alt="Screenshot 2026-03-22 193409" src="https://github.com/user-attachments/assets/133d23e3-7f1b-479a-b2c1-ff4f0d0478f4" />
 
 8. Identified that different types of whitespace were being used to encode binary data.
-9. Replaced one type of whitespace character with `0` and another type with `1` using a text editor.
-10. This conversion resulted in a sequence of **binary digits (0s and 1s)**.
-11. Copied the binary data and opened **CyberChef**.
-12. Applied the **From Binary** operation or used the **Magic** function to decode the data.
-13. The decoded output revealed readable text containing the flag.
+9. Replaced one type of whitespace character with `0`.
+
+
+
+10. Then replaced another type with `1` using a text editor.
+
+
+11. This conversion resulted in a sequence of **binary digits (0s and 1s)**.
+12. Copied the binary data and opened **CyberChef**.
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-22 194325" src="https://github.com/user-attachments/assets/32ba60e9-8543-4c9e-a1e9-b2a76db34483" />
+
+13. Applied the **From Binary** operation or used the **Magic** function to decode the data.
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-22 194345" src="https://github.com/user-attachments/assets/8a6d1403-9d7c-4eda-b08c-2b26db8973c7" />
+
+14. The decoded output revealed readable text containing the flag.
 
 ---
 
