@@ -55,6 +55,9 @@ file whitepages.txt
 
 8. Identified that different types of whitespace were being used to encode binary data.
 9. Replaced one type of whitespace character with `0`.
+
+<img width="1919" height="1079" alt="Screenshot 2026-03-22 193503" src="https://github.com/user-attachments/assets/5628cade-8f6a-4e2a-9de9-5c182e84250f" />
+
 10. Then replaced another type with `1` using a text editor.
 11. This conversion resulted in a sequence of **binary digits (0s and 1s)**.
 
