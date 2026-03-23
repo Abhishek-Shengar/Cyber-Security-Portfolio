@@ -62,8 +62,13 @@ file whitepages.txt
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-22 193503" src="https://github.com/user-attachments/assets/5628cade-8f6a-4e2a-9de9-5c182e84250f" />
 
-10. Closed the tab and it shown me `0` and along with that remaning whitespaces.
-11. Double clicked on the next whitespace and 
+10. Closed the tab and it shown all converted whitespaces with `0` and along with that remaning hiddien whitespaces.
+
+<img width="1919" height="1078" alt="Screenshot 2026-03-22 193611" src="https://github.com/user-attachments/assets/ee36bca2-2491-40ec-9595-79046ef48922" />
+
+11. Double clicked on the next whitespace.
+
+
 10. Then replaced another type with `1` using a text editor.
 11. This conversion resulted in a sequence of **binary digits (0s and 1s)**.
 
