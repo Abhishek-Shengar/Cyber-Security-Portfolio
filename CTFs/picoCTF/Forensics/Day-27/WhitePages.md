@@ -66,10 +66,10 @@ file whitepages.txt
 
 <img width="1919" height="1078" alt="Screenshot 2026-03-22 193611" src="https://github.com/user-attachments/assets/ee36bca2-2491-40ec-9595-79046ef48922" />
 
-11. Double clicked on the next whitespace.
+11. Double clicked on the next whitespace and replaced another type with `1` using a text editor.
 
+<img width="1919" height="1079" alt="Screenshot 2026-03-22 193857" src="https://github.com/user-attachments/assets/8abcff82-7605-4c80-ad49-ef1386d9dcb1" />
 
-10. Then replaced another type with `1` using a text editor.
 11. This conversion resulted in a sequence of **binary digits (0s and 1s)**.
 
 <img width="1919" height="1079" alt="Screenshot 2026-03-22 193939" src="https://github.com/user-attachments/assets/831708db-cce4-4689-a6d5-6100cfda148d" />
