@@ -1,4 +1,4 @@
-# Day 27 – picoCTF Forensics Challenge
+# Day 28 – picoCTF Forensics Challenge
 
 ## Challenge Name
 
@@ -15,3 +15,9 @@ Medium
 
 Download Link: 
 
+---
+
+## Flag (Masked)
+picoCTF{***************}
+
+---
