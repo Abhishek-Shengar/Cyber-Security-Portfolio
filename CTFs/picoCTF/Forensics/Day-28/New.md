@@ -1,7 +1,7 @@
 # Day 28 – picoCTF Forensics Challenge
 
 ## Challenge Name
-
+Neww Challenge
 
 ## Category
 Forensics
